@@ -10,7 +10,7 @@ title: 'ADA'
 tagline: 'Charting a path to cinematic success' # For the tab title
 description: 'Charting a path to cinematic success'
 url: http://hyde.getpoole.com # FIXME - Change this, but what does it do ?
-baseurl: https://github.com/chlea38/ada-website
+baseurl: /
 
 defaults:
   - scope:
