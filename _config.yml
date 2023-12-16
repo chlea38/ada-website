@@ -12,6 +12,12 @@ description: 'Charting a path to cinematic success'
 url: http://hyde.getpoole.com # FIXME - Change this, but what does it do ?
 baseurl: /
 
+defaults:
+  - scope:
+      path: "images"
+    values:
+      image: true
+
 author:
   name: 'The Armada Of Badass Empanadas'
   url: https://github.com/epfl-ada/ada-2023-project-thearmadaofbadassempanadas
