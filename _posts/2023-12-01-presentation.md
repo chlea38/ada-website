@@ -16,31 +16,31 @@ title: Presentation
 
 <div style="display: flex; justify-content: center;">
   <div style="text-align: center; margin: 0 10px; flex: 1;">
-    <img src="../images/flore.jpg" alt="Image 1" style="display: block; margin: 0 auto; border: 12px solid black; width: 100%;">
+    <img src="{{ '/' | relative_url }}images/flore.jpg" alt="Image 1" style="display: block; margin: 0 auto; border: 12px solid black; width: 100%;">
     <p style="font-weight: bold;">Léon</p>
     <p style="font-style: italic;">Role 1</p>
     <p>"Quotation from Léon"</p>
   </div>
   <div style="text-align: center; margin: 0 10px; flex: 1;">
-    <img src="../images/flore.jpg" alt="Image 2" style="display: block; margin: 0 auto; border: 12px solid black; width: 100%;">
+    <img src="{{ '/' | relative_url }}images/flore.jpg" alt="Image 2" style="display: block; margin: 0 auto; border: 12px solid black; width: 100%;">
     <p style="font-weight: bold;">Lola</p>
     <p style="font-style: italic;">Role 2</p>
     <p>"Quotation from Lola"</p>
   </div>
   <div style="text-align: center; margin: 0 10px; flex: 1;">
-    <img src="../images/flore.jpg" alt="Image 3" style="display: block; margin: 0 auto; border: 12px solid black; width: 100%;">
+    <img src="{{ '/' | relative_url }}images/flore.jpg" alt="Image 3" style="display: block; margin: 0 auto; border: 12px solid black; width: 100%;">
     <p style="font-weight: bold;">Justine</p>
     <p style="font-style: italic;">Role 3</p>
     <p>"Quotation from Justine"</p>
   </div>
   <div style="text-align: center; margin: 0 10px; flex: 1;">
-    <img src="../images/flore.jpg" alt="Image 4" style="display: block; margin: 0 auto; border: 12px solid black; width: 100%;">
+    <img src="{{ '/' | relative_url }}images/flore.jpg" alt="Image 4" style="display: block; margin: 0 auto; border: 12px solid black; width: 100%;">
     <p style="font-weight: bold;">Flore</p>
     <p style="font-style: italic;">Role 4</p>
     <p>"Quotation from Flore"</p>
   </div>
   <div style="text-align: center; margin: 0 10px; flex: 1;">
-    <img src="../images/flore.jpg" alt="Image 5" style="display: block; margin: 0 auto; border: 12px solid black; width: 100%;">
+    <img src="{{ '/' | relative_url }}images/flore.jpg" alt="Image 5" style="display: block; margin: 0 auto; border: 12px solid black; width: 100%;">
     <p style="font-weight: bold;">Chléa</p>
     <p style="font-style: italic;">Role 5</p>
     <p>"Quotation from Chléa"</p>
