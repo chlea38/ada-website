@@ -3,7 +3,6 @@ layout: post
 title: Presentation
 ---
 
-
 <div class="message">
   <h2>Who am I?</h2>
 
@@ -48,10 +47,11 @@ title: Presentation
       <p style="font-style: italic;color: #c68d8e;font-size: 12px;">“I'm not psychic, but my models are; they can predict your future better than a fortune cookie!”</p>
     </div>
   </div>
-  <br><br>
+
+  <br><br> 
   Together, we navigate the cinematic landscape with virtuosity, akin to skilled ADAventurers armed with a treasure map. Our distinctive mission is to meticulously compare and explore diverse cinematic regions worldwide, in pursuit of the perfect stage where my talents can radiate most brilliantly, catapulting me to unparalleled heights of fame and achievement. From the opulence of Hollywood to the refined cultural tapestry of Europe and the pulsating vibrancy of Bollywood in Asia, our goal is to pinpoint the most promising opportunities for my personal success and global recognition.
   <br><br>
-  This cinematic quest, while driven by the pursuit of fame and achievement, is intricately entwined with my unwavering goals, moral values, and a steadfast commitment to advancing female representation in cinema. As we navigate through the diverse realms of the film industry, it is imperative that the chosen stage aligns harmoniously with my artistic principles and ethical convictions. A commitment to authenticity, inclusivity, and meaningful storytelling remains at the core of this journey, ensuring that the pursuit of success resonates with both my personal ethos and the broader narrative of cinema. 
+  This cinematic  quest, while driven by the pursuit of fame and achievement, is intricately entwined with my unwavering goals, moral values, and a steadfast commitment to advancing female representation in cinema. As we navigate through the diverse realms of the film industry, it is imperative that the chosen stage aligns harmoniously with my artistic principles and ethical convictions. A commitment to authenticity, inclusivity, and meaningful storytelling remains at the core of this journey, ensuring that the pursuit of success resonates with both my personal ethos and the broader narrative of cinema. 
   <br><br>
   Thank you for deigning to accompany me on this unparalleled cinematic journey. The stage is set, cameras poised, and the world eagerly awaits the enchanting spectacle soon to unfold – a spectacle that undoubtedly represents my triumph. Now, I invite you to delve into the report crafted by my exceptional team, unlocking the secrets behind my cinematic success. 
 
