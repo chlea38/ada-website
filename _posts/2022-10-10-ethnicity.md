@@ -20,7 +20,7 @@ Film industries in our four region of the world are large melting pot of actors 
 
 <div>
   <div style="position:relative; padding-top:56.25%; width:700px; height:700px;">
-    <iframe src="plots/ethny_percentage.html" style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0"></iframe>
+    <iframe src="plots/diversity_representation.html" style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0"></iframe>
   </div>
 </div>
 
