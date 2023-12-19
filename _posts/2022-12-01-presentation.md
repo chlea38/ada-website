@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Presentation
+title:  
 ---
 
 <div class="message">
@@ -20,31 +20,31 @@ title: Presentation
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/leon.gif" alt="Image 1" style="display: block; margin: 0 auto; border: 5px solid #a04144; width: 100%;">
       <p style="font-weight: bold; ; color: #a04144;">Léon</p>
-      <p style="color: #c68d8e;font-size: 12px;">Data cleaning connoisseur</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 12px;">Data cleaning connoisseur</p>
       <p style="font-style: italic; color: #c68d8e;font-size: 12px;"> “Cleaning data is my cardio; watch me sweat those missing values away!” </p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/justine.gif" alt="Image 3" style="display: block; margin: 0 auto; border: 5px solid #a04144; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Justine</p>
-      <p style="color: #c68d8e;font-size: 12px;">Visualization Virtuoso</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 12px;">Visualization Virtuoso</p>
       <p style="font-style: italic;color: #c68d8e;font-size: 12px;">“I turn data into art; Picasso would've been jealous of my pie charts!”</p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/chlea.gif" alt="Image 5" style="display: block; margin: 0 auto; border: 5px solid #a04144; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Chléa</p>
-      <p style="color: #c68d8e;font-size: 12px;">Litterature genius</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 12px;">Litterature genius</p>
       <p style="font-style: italic;color: #c68d8e;font-size: 12px;">“?”</p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/lola.gif" alt="Image 2" style="display: block; margin: 0 auto; border: 5px solid #a04144; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Lola</p>
-      <p style="color: #c68d8e;font-size: 12px;">Social expert</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 12px;">Social expert</p>
       <p style="font-style: italic; color: #c68d8e;font-size: 12px;">“?”</p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/flore.gif" alt="Image 4" style="display: block; margin: 0 auto; border: 5px solid #a04144; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Flore</p>
-      <p style="color: #c68d8e;font-size: 12px;">Predictive Modeling Prodigy</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 12px;">Predictive Modeling Prodigy</p>
       <p style="font-style: italic;color: #c68d8e;font-size: 12px;">“I'm not psychic, but my models are; they can predict your future better than a fortune cookie!”</p>
     </div>
   </div>
