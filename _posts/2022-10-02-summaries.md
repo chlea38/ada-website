@@ -19,6 +19,12 @@ In this part, we will study and compare the hidden story behind the summaries of
             margin-top: 20px;
         }
 
+        #imageSelector {
+            border-radius: 8px;
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+
         .hidden {
             display: none;
         }
@@ -27,7 +33,7 @@ In this part, we will study and compare the hidden story behind the summaries of
 <body>
 
 <div id="imageContainer">
-    <label for="imageSelector">Select Image: </label>
+    <label for="imageSelector">Area: </label>
     <select id="imageSelector" onchange="showSelectedImage()">
         <option value="Asia">Asia</option>
         <option value="Europe">Europe</option>
