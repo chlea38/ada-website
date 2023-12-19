@@ -8,7 +8,6 @@ In this part, we will study and compare the hidden story behind the summaries of
 
 ## Female representation
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,16 +30,19 @@ In this part, we will study and compare the hidden story behind the summaries of
     <img id="Asia" src="images/flore.jpg" alt="Image 1" class="hidden">
     <img id="Europe" src="images/flore.jpg" alt="Image 2" class="hidden">
     <img id="India" src="images/flore.jpg" alt="Image 3" class="hidden">
-    <img id="Northern america" src="images/flore.jpg" alt="Image 4" class="hidden">
+    <img id="NorthernAmerica" src="images/flore.jpg" alt="Image 4" class="hidden">
 
-    <button onclick="showImage('image1')">Show Image 1</button>
-    <button onclick="showImage('image2')">Show Image 2</button>
-    <button onclick="showImage('image3')">Show Image 3</button>
-    <button onclick="showImage('image4')">Show Image 4</button>
+    <label for="imageSelector">Select Image: </label>
+    <select id="imageSelector" onchange="showSelectedImage()">
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="India">India</option>
+        <option value="NorthernAmerica">Northern America</option>
+    </select>
 </div>
 
 <script>
-    function showImage(imageId) {
+    function showSelectedImage() {
         // Hide all images
         var images = document.querySelectorAll('img');
         images.forEach(function (image) {
@@ -48,7 +50,8 @@ In this part, we will study and compare the hidden story behind the summaries of
         });
 
         // Show the selected image
-        var selectedImage = document.getElementById(imageId);
+        var selectedImageId = document.getElementById('imageSelector').value;
+        var selectedImage = document.getElementById(selectedImageId);
         if (selectedImage) {
             selectedImage.classList.remove('hidden');
         }
@@ -57,7 +60,3 @@ In this part, we will study and compare the hidden story behind the summaries of
 
 </body>
 </html>
-
-
-##
-
