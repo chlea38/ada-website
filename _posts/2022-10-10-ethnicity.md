@@ -18,20 +18,9 @@ Ethnicities linked to actors in this CMU movie dataset are highly specific, maki
 
 Film industries in our four region of the world are large melting pot of actors coming from different horizon. To gain a better visualization of the ethnic composition within this complex melting pot, we can examine the proportion of each ethnicity across different geographical areas.
 
-<div>
-  <div style="position:relative;padding-top:56.25%;">
-    <iframe src="plots/ech_diversity_representation.html" style="position:absolute;top:0;left:0;width:700px;height:400px;" frameborder="0">
-    </iframe>
-  </div>
-</div>
 
 ### Ethnic diversity over years  
 In order to go further in our exploration we are going to compare how this ethnicity diversity evolves across years in our four group when taking into account the amout of produced movies. The large proportion of missing values, which is unevenly distributed among the groups, makes these plots less reliable.
 
-<div>
-  <div style="position:relative;padding-top:56.25%;">
-    <iframe src="plots/ethny_diversity_percentage_2_2.html" style="position:absolute;top:0;left:0;width:700px;height:700px;" frameborder="0">
-	</iframe>
-</div>
-	
+
 Examining our dataset film production trends across our four regions is crucial for parallel analysis alongside the evolution of ethnicity representation. Eastern asian films remains consistently low and quite constant over the years. This will make the ethnicity diversity proportional analysis more complicated for this region. On the other hand, the other three regions have experienced an increase in film production since the 1980s, providing more opportunities for diverse ethnic representation. The growth in the movie industry is noticeable at different scales in Northern America, Europe, and Asia. However, last few years are associated with a drastic reduced amount of film available in our data set making comparisons difficult since 2010.
