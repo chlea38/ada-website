@@ -11,7 +11,7 @@ title: Presentation
   <br><br>
   Esteemed individuals, distinguished colleagues, and avid cinephiles,
   <br><br>
-  Allow me to captivate your attention as I unveil the remarkable journey of none other than myself, [NAME], a luminary in the making within the captivating world of cinema. My narrative is one that transcends ordinary ambitions, guided by an unyielding passion for storytelling and an unwavering commitment to leaving an indelible mark on the grand stage of the film industry. 
+  Allow me to captivate your attention as I unveil the remarkable journey of none other than myself, Joléa, a luminary in the making within the captivating world of cinema. My narrative is one that transcends ordinary ambitions, guided by an unyielding passion for storytelling and an unwavering commitment to leaving an indelible mark on the grand stage of the film industry. 
   <br><br>
   With the aspiration to ascend to the pinnacle of fame as the most celebrated actress, I've assembled an unparalleled team of data analysts: 
   <br><br>
@@ -58,7 +58,7 @@ title: Presentation
 
 <div style="text-align: right;">
   Faithfully yours, <br>
-  NAME
+  Joléa
 </div>
   
 </div>
