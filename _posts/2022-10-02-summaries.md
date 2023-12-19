@@ -6,7 +6,23 @@ title: The story behind plot summaries
 Movie summaries contain a lot of hidden information about the film industry and should be examined with the same passion and attention as a Shakespeare manuscript. 
 In this part, we will study and compare the hidden story behind the summaries of each of the 4 regions, across different topics.
 
-## Female representation
+## Reading between the lines
+
+The textual data primarily encodes insights into how personna and common themes are portrayed across various movies. Uncovering such details from raw texts involves a nuanced approach, requiring a careful examination between the lines, coupled with the application of machine learning techniques. All plot summaries have undergone meticulous processing using the [Stanford Core NLP pipeline](https://stanfordnlp.github.io/CoreNLP/pipeline.html), and the outcomes of this processing are neatly presented in the accompanying dataset. Our current objective is to delve into this dataset to unearth the inherent narratives within each plot summary.
+
+This supplementary dataset encompasses a wealth of features related to the text, including:
+- In-depth analysis of each word in the text, revealing details such as its lemma (root word) or its part of speech (noun, adjective, etc.).
+- Identification of dependencies between words within the same sentence.
+- Recognition of co-references related to the same entity throughout the text.
+
+Various techniques, such as extracting words linked to a common theme, assessing the sentiment embedded in sentences containing those words, and scrutinizing words frequently associated with theme-related terms, serve as diverse approaches to deciphering the subtleties within these movie plot summaries. Let's delve into what these features unveil about the movies.
+
+## Female representation in plot summaries
+
+Joléa considers female representation a pivotal theme, and the portrayal of women in text demands meticulous scrutiny. This careful examination aims to delineate the cinematic industry that aligns most seamlessly with the ideals and aspirations of our cherished actress.
+
+TODO: replace with the plots
+
 
 <html lang="en">
 <head>
