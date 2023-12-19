@@ -20,12 +20,6 @@ Film industries in our four region of the world are large melting pot of actors 
 
 <div>
   <div style="position:relative;padding-top:56.25%;">
-    <iframe src="plots/ethny_representation.html" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0">
-	</iframe>
-</div>
-
-<div>
-  <div style="position:relative;padding-top:56.25%;">
     <iframe src="plots/ethny_representation.html" style="position:absolute;top:0;left:0;width:100%;height:500px;" frameborder="0">
     </iframe>
   </div>
@@ -36,6 +30,7 @@ In order to go further in our exploration we are going to compare how this ethni
 
 <div>
   <div style="position:relative;padding-top:56.25%;">
-    <iframe src="plots/ethny_diversity_percentage_2_2_pannel.html" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0">
+    <iframe src="plots/ethny_diversity_percentage_2_2_pannel.html" style="position:absolute;top:0;left:0;width:100%;height:730px;" frameborder="0">
 	</iframe>
 </div>
+
