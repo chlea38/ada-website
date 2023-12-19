@@ -23,6 +23,8 @@ In this part, we will study and compare the hidden story behind the summaries of
             border-radius: 8px;
             padding: 8px;
             border: 1px solid #ccc;
+            font-size: 16px; 
+            margin-bottom: 20px;
         }
 
         .hidden {
