@@ -27,11 +27,6 @@ In this part, we will study and compare the hidden story behind the summaries of
 <body>
 
 <div id="imageContainer">
-    <img id="Asia" src="images/flore.jpg" alt="Image 1" class="hidden">
-    <img id="Europe" src="images/flore.jpg" alt="Image 2" class="hidden">
-    <img id="India" src="images/flore.jpg" alt="Image 3" class="hidden">
-    <img id="NorthernAmerica" src="images/flore.jpg" alt="Image 4" class="hidden">
-
     <label for="imageSelector">Select Image: </label>
     <select id="imageSelector" onchange="showSelectedImage()">
         <option value="Asia">Asia</option>
@@ -39,9 +34,17 @@ In this part, we will study and compare the hidden story behind the summaries of
         <option value="India">India</option>
         <option value="NorthernAmerica">Northern America</option>
     </select>
+
+    <img id="Asia" src="images/flore.jpg" alt="Image 1">
+    <img id="Europe" src="images/flore.jpg" alt="Image 2" class="hidden">
+    <img id="India" src="images/flore.jpg" alt="Image 3" class="hidden">
+    <img id="NorthernAmerica" src="images/flore.jpg" alt="Image 4" class="hidden">
 </div>
 
 <script>
+    // Show the first image initially
+    document.getElementById('Asia').classList.remove('hidden');
+
     function showSelectedImage() {
         // Hide all images
         var images = document.querySelectorAll('img');
@@ -60,3 +63,4 @@ In this part, we will study and compare the hidden story behind the summaries of
 
 </body>
 </html>
+
