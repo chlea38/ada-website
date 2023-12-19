@@ -11,7 +11,7 @@ This word cloud visually represents the ethnicities in each region, where the si
 
 - word cloud
 
-Ethnicities linked to actors in this CMU movie dataset are highly specific, making it challenging to form broader subgroups that ethically group different ethnicities together. This can generate  challenge for the further exploration of ethicity representation:  \\
+Ethnicities linked to actors in this CMU movie dataset are highly specific, making it challenging to form broader subgroups that ethically group different ethnicities together. This can generate  challenge for the further exploration of ethicity representation:  
 
 - Presence of two many precise categories ungroupable
 - Occurence of many ethnicithies with a very small frequencies which are part of the dataset and we have to use them to avoid biases and misrepresentation in the results  
@@ -20,7 +20,7 @@ Film industries in our four region of the world are large melting pot of actors 
 
 <div>
   <div style="position:relative;padding-top:56.25%;">
-    <iframe src="plots/ethny_representation.html" style="position:absolute;top:0;left:0;width:100%;height:500px;" frameborder="0">
+    <iframe src="plots/ech_diversity_representation.html" style="position:absolute;top:0;left:0;width:700px;height:400px;" frameborder="0">
     </iframe>
   </div>
 </div>
@@ -30,7 +30,8 @@ In order to go further in our exploration we are going to compare how this ethni
 
 <div>
   <div style="position:relative;padding-top:56.25%;">
-    <iframe src="plots/ethny_diversity_percentage_2_2_pannel.html" style="position:absolute;top:0;left:0;width:100%;height:730px;" frameborder="0">
+    <iframe src="plots/ethny_diversity_percentage_2_2.html" style="position:absolute;top:0;left:0;width:700px;height:700px;" frameborder="0">
 	</iframe>
 </div>
-
+	
+Examining our dataset film production trends across our four regions is crucial for parallel analysis alongside the evolution of ethnicity representation. Eastern asian films remains consistently low and quite constant over the years. This will make the ethnicity diversity proportional analysis more complicated for this region. On the other hand, the other three regions have experienced an increase in film production since the 1980s, providing more opportunities for diverse ethnic representation. The growth in the movie industry is noticeable at different scales in Northern America, Europe, and Asia. However, last few years are associated with a drastic reduced amount of film available in our data set making comparisons difficult since 2010.
