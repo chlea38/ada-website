@@ -13,39 +13,39 @@ title:
   <br><br>
   Allow me to captivate your attention as I unveil the remarkable journey of none other than myself, Joléa, a luminary in the making within the captivating world of cinema. My narrative is one that transcends ordinary ambitions, guided by an unyielding passion for storytelling and an unwavering commitment to leaving an indelible mark on the grand stage of the film industry. 
   <br><br>
-  With the aspiration to ascend to the pinnacle of fame as the most celebrated actress, I've assembled an unparalleled team of data analysts: 
+  With the aspiration to ascend to the pinnacle of fame as the most celebrated actress, I've assembled an unparalleled team of data analysts to help me get the most from gathered data: 
   <br><br>
 
   <div style="display: flex; justify-content: center;">
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/leon.gif" alt="Image 1" style="display: block; margin: 0 auto; border: 5px solid #a04144; width: 100%;">
       <p style="font-weight: bold; ; color: #a04144;">Léon</p>
-      <p style="font-weight: bold; color: #c68d8e;font-size: 12px;">Data cleaning connoisseur</p>
-      <p style="font-style: italic; color: #c68d8e;font-size: 12px;"> “Cleaning data is my cardio; watch me sweat those missing values away!” </p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Data cleaning connoisseur</p>
+      <p style="font-style: italic; color: #c68d8e;font-size: 14px;"> “Cleaning data is my cardio; watch me sweat those missing values away!” </p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/justine.gif" alt="Image 3" style="display: block; margin: 0 auto; border: 5px solid #a04144; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Justine</p>
-      <p style="font-weight: bold; color: #c68d8e;font-size: 12px;">Visualization Virtuoso</p>
-      <p style="font-style: italic;color: #c68d8e;font-size: 12px;">“I turn data into art; Picasso would've been jealous of my pie charts!”</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Visualization Virtuoso</p>
+      <p style="font-style: italic;color: #c68d8e;font-size: 14px;">“I turn data into art; Picasso would've been jealous of my pie charts!”</p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/chlea.gif" alt="Image 5" style="display: block; margin: 0 auto; border: 5px solid #a04144; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Chléa</p>
-      <p style="font-weight: bold; color: #c68d8e;font-size: 12px;">Litterature genius</p>
-      <p style="font-style: italic;color: #c68d8e;font-size: 12px;">“?”</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Litterature genius</p>
+      <p style="font-style: italic;color: #c68d8e;font-size: 14px;">“I turn data into stories; my spreadsheets have plot twists that even Shakespeare couldn’t script!”</p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/lola.gif" alt="Image 2" style="display: block; margin: 0 auto; border: 5px solid #a04144; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Lola</p>
-      <p style="font-weight: bold; color: #c68d8e;font-size: 12px;">Social expert</p>
-      <p style="font-style: italic; color: #c68d8e;font-size: 12px;">“?”</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Social expert</p>
+      <p style="font-style: italic; color: #c68d8e;font-size: 14px;">“I'm the data wizard who sees more than 0s and 1s—I'm a numbers whisperer decoding societal secrets”</p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/flore.gif" alt="Image 4" style="display: block; margin: 0 auto; border: 5px solid #a04144; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Flore</p>
-      <p style="font-weight: bold; color: #c68d8e;font-size: 12px;">Predictive Modeling Prodigy</p>
-      <p style="font-style: italic;color: #c68d8e;font-size: 12px;">“I'm not psychic, but my models are; they can predict your future better than a fortune cookie!”</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Predictive Modeling Prodigy</p>
+      <p style="font-style: italic;color: #c68d8e;font-size: 14px;">“I'm not psychic, but my models are; they can predict your future better than a fortune cookie!”</p>
     </div>
   </div>
 
