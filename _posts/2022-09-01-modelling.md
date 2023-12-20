@@ -20,6 +20,8 @@ And ... AbracADAbra! We now have a balanced dataset ready for model training.
 
 ### A performant model
 
+<img src="plots/model_ROC.png" alt="Connections distribution" style="width: 100%;">
+
 <table>
   <thead>
     <tr>
