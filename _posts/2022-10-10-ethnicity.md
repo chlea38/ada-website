@@ -37,10 +37,8 @@ Film industries in our four region of the world are large melting pot of actors 
     }
   </style>
 </head>
-<body>
-
-  <iframe src="plots/ethny_per_region.html" width="100%" height="100%" style="border: 0" allowfullscreen></iframe>
-
+<body style="margin:0px;padding:0px;overflow:hidden">
+    <iframe src="plots/ethny_per_region.html" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
 </body>
 </html>
 
