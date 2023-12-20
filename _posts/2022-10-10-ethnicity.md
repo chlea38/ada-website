@@ -17,9 +17,6 @@ Ethnicities linked to actors in this CMU movie dataset are highly specific, maki
 
 Film industries in our four region of the world are large melting pot of actors coming from different horizon. To gain a better visualization of the ethnic composition within this complex melting pot, we can examine the proportion of each ethnicity across different geographical areas.
 
-<iframe src="plots/ethny_per_region.html" width="100%" height="100vh" style="border: 0" allowfullscreen></iframe>
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
