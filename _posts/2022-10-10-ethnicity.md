@@ -19,6 +19,33 @@ Film industries in our four region of the world are large melting pot of actors 
 
 <iframe src="plots/ethny_per_region.html" width="100%" height="100vh" style="border: 0" allowfullscreen></iframe>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, height=device-height">
+  <title>Your HTML Document Title</title>
+  
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <iframe src="plots/ethny_per_region.html" width="100%" height="100%" style="border: 0" allowfullscreen></iframe>
+
+</body>
+</html>
 
 ### Ethnic diversity over years  
 In order to go further in our exploration we are going to compare how this ethnicity diversity evolves across years in our four group when taking into account the amout of produced movies. The large proportion of missing values, which is unevenly distributed among the groups, makes these plots less reliable.
