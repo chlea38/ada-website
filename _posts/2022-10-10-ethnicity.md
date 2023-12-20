@@ -2,7 +2,6 @@
 layout: post
 title: Etnicity 
 ---
-## Ethnicity representation across cinematic borders
 Exploring ethnic representation in movies over the years in our selected regions tells us a lot about how cinema reflects and changes with society. We gain insights into the complex interaction of culture, identity, and film in these regions. Our goal is to identify regions that present a richer variety of ethnicities on screen.
 
 ### Ethnicity melting pot  
@@ -38,6 +37,9 @@ Examining our dataset film production trends across our four regions is crucial 
 
 Looking at the total count of various ethnicities over the years, we see that the number of different ethnicities increased the most in Northern American and European films, following the trend of movies released count. In Eastern Asian and Indian films, we also notice an increase in the count, although the change over the years is smaller, especially for Indian films.  
 
+We observe that there are more Indian movies than European ones over the years. On the other hand, the count of different ethnicities in European movies is greater than in Indian movies, indicating that ethnic diversity is less pronounced in Indian films compared to European ones.
+
 Finally we can look at the percentage of different ethnicities represented in each region for different years to try to make a conclusion to our analysis. Values for Eastern Asian unique ethnicities percentage are really non readable and comparable as we have a very few movies available. We observe a high variability of our curve over years. Globaly the other three curves show a slight decreasing pattern. This suggests that, despite an increase in the number of films produced, ethnic diversity representation did not rise sufficiently to maintain a constant percentage or show an increase. This implies that the number of movies produced increased more rapidly than the diversification of ethnicities represented on screen.  
 
-- Conclusion
+### Recommendations for Joléa's Career
+Joléa believes that a mix of cultures and ethnicities is crucial. She prefers a career in a region with a rich on-screen ethnic diversity. We don't consider Asia in this analysis due to data limitations. The analysis suggests that for the highest ethnic diversity percentage in film, Europe is the best choice. Although Northern America has more ethnicities, its overall diversity proportion in films is smaller.
