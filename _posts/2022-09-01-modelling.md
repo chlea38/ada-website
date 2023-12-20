@@ -9,9 +9,16 @@ Joléa is among many "aspiring actors" wondering which is the most suitable regi
 - Ethnicity
 - Gender
 
-  ### Data pre-processing
+### Data pre-processing
+The data preprocessing was the major challenge to create this predictive model. The labeled dataset links individual actors with their corresponding features to the region in which they predominantly appeared in movies. The major point was to creat a balanced data frame: balanced between the different features between the training and the testing set of each region and also balanced between the four regions.
 
-  ### A performant model
+In summary, here's what we did to achieve this:
+- To address the imbalance caused by highly sparse features (due to diverse and specific ethnicities and movie genres), we retained only the most prevalent ethnicities and movie genres for each region.
+- We performed upsampling on both the training and testing sets for each region before merging them.
+
+And ... AbracADAbra! We now have a balanced dataset ready for model training.
+
+### A performant model
 
 <table>
   <thead>
