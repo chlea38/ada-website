@@ -10,7 +10,7 @@ This word cloud visually represents the ethnicities in each region, where the si
 
 <div>
   <div style="position:relative; padding-top:56.25%; width:700px; height:500px;">
-    <iframe src="plots/wordcloud_subplots_ethny.png" style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0"></iframe>
+    <iframe src="plots/wordcloud_ethnicities.png" style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0"></iframe>
   </div>
 </div>
 
