@@ -13,7 +13,7 @@ Joléa is among many "aspiring actors" wondering which is the most suitable regi
 
   ### A performant model
 
-  <table>
+<table>
   <thead>
     <tr>
       <th>Feature</th>
