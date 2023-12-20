@@ -17,30 +17,8 @@ Ethnicities linked to actors in this CMU movie dataset are highly specific, maki
 
 Film industries in our four region of the world are large melting pot of actors coming from different horizon. To gain a better visualization of the ethnic composition within this complex melting pot, we can examine the proportion of each ethnicity across different geographical areas.
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, height=device-height">
-  <title>Your HTML Document Title</title>
-  
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-    }
 
-    iframe {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
-  </style>
-</head>
-<body style="margin:0px;padding:0px;overflow:hidden">
-    <iframe src="plots/ethny_per_region.html" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
-</body>
-</html>
+<iframe src="plots/ethny_per_region.html" frameborder="0" style="overflow:hidden;height:100%;width:100%" height="100%" width="100%"></iframe>
 
 ### Ethnic diversity over years  
 In order to go further in our exploration we are going to compare how this ethnicity diversity evolves across years in our four group when taking into account the amout of produced movies. The large proportion of missing values, which is unevenly distributed among the groups, makes these plots less reliable.
