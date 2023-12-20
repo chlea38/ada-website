@@ -9,7 +9,7 @@ The first step of our analysis is to examine our actor dataset globally, conside
 This word cloud visually represents the ethnicities in each region, where the size of each ethnicity's name s proportional to its frequency of occurence in the data.
 
 <div>
-  <div style="position:relative; padding-top:56.25%; width:700px; height:500px;">
+  <div style="position:relative; padding-top:56.25%; width:800px; height:600px;">
     <iframe src="plots/wordcloud_ethnicities.png" style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0"></iframe>
   </div>
 </div>
