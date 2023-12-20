@@ -8,7 +8,11 @@ Exploring ethnic representation in movies over the years in our selected regions
 The first step of our analysis is to examine our actor dataset globally, considering their ethnicities across various regions. This first observation is crucial to have a better understanding of what follows.
 This word cloud visually represents the ethnicities in each region, where the size of each ethnicity's name s proportional to its frequency of occurence in the data.
 
-- word cloud
+<div>
+  <div style="position:relative; padding-top:56.25%; width:600px; height:800px;">
+    <iframe src="plots/wordcloud_ethny.png" style="position:absolute; top:0; left:0; width:100%; height:100%;" frameborder="0"></iframe>
+  </div>
+</div>
 
 Ethnicities linked to actors in this CMU movie dataset are highly specific, making it challenging to form broader subgroups that ethically group different ethnicities together. This can generate  challenge for the further exploration of ethicity representation:  
 
