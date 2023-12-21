@@ -78,7 +78,7 @@ TODO: replace with the plots
     <div id="NOUNCaption" class="caption to-be-hidden">Caption for Nouns</div>
 
     <img id="ADJ" class="to-be-hidden hidden" src="plots/ADJ_correferences_wordcloud.png" alt="Image 2">
-    <div id="ADJCaption" class="caption hidden">Caption for Adjectives</div>
+    <div id="ADJCaption" class="caption hidden to-be-hidden">Caption for Adjectives</div>
 
     <img id="VERB" class="to-be-hidden hidden" src="plots/VERB_correferences_wordcloud.png" alt="Image 3" >
     <div id="VERBCaption" class="caption hidden to-be-hidden">Caption for Verbs</div>
@@ -88,9 +88,6 @@ TODO: replace with the plots
 </div>
 
 <script>
-    // Show the first image initially
-    // document.getElementById('NOUN').classList.remove('hidden');
-    // document.getElementById('NOUNCaption').classList.remove('hidden');
 
     function showSelectedImage() {
         // Hide all images and captions
