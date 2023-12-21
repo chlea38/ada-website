@@ -33,7 +33,7 @@ title:
       <img src="images/chlea.gif" alt="Image 5" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Chléa</p>
       <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Litterature genius</p>
-      <p style="font-style: italic;color: #c68d8e;font-size: 14px;">“I turn data into stories; my spreadsheets have plot twists that even Shakespeare couldn’t script!”</p>
+      <p style="font-style: italic;color: #c68d8e;font-size: 14px;">“Analyzing text data is like being a literary detective, where every word is a clue, and each sentence unfolds a story”</p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/lola.gif" alt="Image 2" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 100%;">
