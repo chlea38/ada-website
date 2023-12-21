@@ -28,9 +28,8 @@ The obtained AUC values equal to 1 suggest that our model perfectly predicts the
   <div style="flex: 2;">
     <img src="plots/model_ROC_curves.png" alt="Connections distribution" style="width: 100%;">
   </div>
-
   <div style="flex: 1;">
-    <div style="flex: 1; font-size: 10px;">
+    <div style="flex: 1; font-size: 11px;">
     <table>
       <thead>
         <tr>
@@ -78,7 +77,6 @@ The obtained AUC values equal to 1 suggest that our model perfectly predicts the
       </tbody>
     </table>
   </div>
-
 </div>
 
 For a deeper understanding of how this model classifies our actors, we can examine the importance assigned to each feature, as indicated by the model itself (here are the first ten). The most influential feature is revenue. Indeed, there is a distinct variation in revenue distribution among different regions. Additionally, we observe that the other significant features align with the most prevalent ethnicities in our four distinct regions.
