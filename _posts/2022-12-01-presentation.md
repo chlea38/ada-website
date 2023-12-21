@@ -6,7 +6,7 @@ title:
 <div class="message">
   <h2>Who am I?</h2>
 
-  <img src="images/actrice.gif" alt="actress" width="250" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 100%;">
+  <img src="images/actrice.gif" alt="actress" width="300" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px;">
   
   <br><br>
   Esteemed individuals, distinguished colleagues, and avid cinephiles,
