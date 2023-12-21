@@ -74,27 +74,27 @@ TODO: replace with the plots
         <option value="PROPN">Proper nouns</option>
     </select>
 
-    <img id="NOUN" src="plots/NOUN_correferences_wordcloud.png" alt="Image 1">
-    <div id="NOUNCaption" class="caption">Caption for Nouns</div>
+    <img id="NOUN" class="to-be-hidden" src="plots/NOUN_correferences_wordcloud.png" alt="Image 1">
+    <div id="NOUNCaption" class="caption to-be-hidden">Caption for Nouns</div>
 
-    <img id="ADJ" src="plots/ADJ_correferences_wordcloud.png" alt="Image 2" class="hidden">
+    <img id="ADJ" class="to-be-hidden hidden" src="plots/ADJ_correferences_wordcloud.png" alt="Image 2">
     <div id="ADJCaption" class="caption hidden">Caption for Adjectives</div>
 
-    <img id="VERB" src="plots/VERB_correferences_wordcloud.png" alt="Image 3" class="hidden">
-    <div id="VERBCaption" class="caption hidden">Caption for Verbs</div>
+    <img id="VERB" class="to-be-hidden hidden" src="plots/VERB_correferences_wordcloud.png" alt="Image 3" >
+    <div id="VERBCaption" class="caption hidden to-be-hidden">Caption for Verbs</div>
 
-    <img id="PROPN" src="plots/PROPN_correferences_wordcloud.png" alt="Image 4" class="hidden">
-    <div id="PROPNCaption" class="caption hidden">Caption for Proper Nouns</div>
+    <img id="PROPN" class="to-be-hidden hidden" src="plots/PROPN_correferences_wordcloud.png" alt="Image 4">
+    <div id="PROPNCaption" class="caption hidden to-be-hidden">Caption for Proper Nouns</div>
 </div>
 
 <script>
     // Show the first image initially
-    document.getElementById('NOUN').classList.remove('hidden');
-    document.getElementById('NOUNCaption').classList.remove('hidden');
+    // document.getElementById('NOUN').classList.remove('hidden');
+    // document.getElementById('NOUNCaption').classList.remove('hidden');
 
     function showSelectedImage() {
         // Hide all images and captions
-        var elements = document.querySelectorAll('img, .caption');
+        var elements = document.querySelectorAll('.to-be-hidden');
         elements.forEach(function (element) {
             element.classList.add('hidden');
         });
