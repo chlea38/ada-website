@@ -93,13 +93,13 @@ TODO: replace with the plots
     document.getElementById('NOUNCaption').classList.remove('hidden');
 
     function showSelectedImage() {
-        // Hide all images and captions
-        var elements = document.querySelectorAll('img, .caption');
-        elements.forEach(function (element) {
+        // Hide all dynamic images and captions
+        var dynamicElements = document.querySelectorAll('.dynamic-image, .dynamic-caption');
+        dynamicElements.forEach(function (element) {
             element.classList.add('hidden');
         });
 
-        // Show the selected image and caption
+        // Show the selected dynamic image and caption
         var selectedImageId = document.getElementById('imageSelector').value;
         var selectedImage = document.getElementById(selectedImageId);
         var selectedCaption = document.getElementById(selectedImageId + 'Caption');
