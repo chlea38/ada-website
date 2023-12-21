@@ -19,8 +19,17 @@ In summary, here's what we did to achieve this:
 And ... AbracADAbra! We now have a balanced dataset ready for model training.
 
 ### A performant model
+For this prediction task, we decided to implement a OneVsRestClassifier with a RandomForestClassifier as the underlying model.This option has proven to be quite effective in our predictions.
+
+The obtained AUC values equal to 1 suggest that our model perfectly predicts the appropriate regions for futur stars most suited for the Indian or Asian movie industries. For people well-suited for the European and North American film industries are generally accurately identified by the model with AUCs respectively equal to 0.92 and 0.96.
 
 <img src="plots/model_ROC_curves.png" alt="Connections distribution" style="width: 100%;">
+
+For a deeper understanding of how this model classifies our actors, we can examine the importance assigned to each feature, as indicated by the model itself (here are the first ten). The most influential feature is revenue. Indeed, there is a distinct variation in revenue distribution among different regions. Additionally, we observe that the other significant features align with the most prevalent ethnicities in our four distinct regions.
+
+This Random forest classifier is particularly performant due to the fact that, during the pre-processing, we selectively retain only the few most popular ethnicities of each region to train our model. The high specificity of certain regions' ethnicities facilitate the prediction task.
+
+For instance, in Indian films, only three ethnicities are represented, and two of them are exclusively associated with Indian movies, creating a highly influential feature. In contrast, actors linked to Europe and North America exhibit greater diversity, potentially contributing to the model's challenges in accurately predicting these regions. 
 
 <table>
   <thead>
