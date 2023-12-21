@@ -30,6 +30,7 @@ The obtained AUC values equal to 1 suggest that our model perfectly predicts the
   </div>
 
   <div style="flex: 1;">
+    <div style="flex: 1; font-size: 10px;">
     <table>
       <thead>
         <tr>
