@@ -46,7 +46,34 @@ The obtained AUC values equal to 1 suggest that our model perfectly predicts the
           <td>Indian person</td>
           <td>0.140</td>
         </tr>
-        <!-- Add more table rows as needed -->
+        <tr>
+          <td>Koreans</td>
+          <td>0.119</td>
+        </tr>
+        <tr>
+          <td>African Americans</td>
+          <td>0.070</td>
+        </tr>
+        <tr>
+          <td>English people</td>
+          <td>0.062</td>
+        </tr>
+        <tr>
+          <td>Japanese people</td>
+          <td>0.044</td>
+        </tr>
+        <tr>
+          <td>Honkongers</td>
+          <td>0.042</td>
+        </tr>
+        <tr>
+          <td>Jewish people</td>
+          <td>0.034</td>
+        </tr>
+        <tr>
+          <td>French</td>
+          <td>0.032</td>
+        </tr>
       </tbody>
     </table>
   </div>
