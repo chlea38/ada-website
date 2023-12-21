@@ -21,8 +21,16 @@ Various techniques, such as extracting words linked to a common theme, assessing
 
 Joléa considers female representation a pivotal theme, and the portrayal of women in text demands meticulous scrutiny. This careful examination aims to delineate the cinematic industry that aligns most seamlessly with the ideals and aspirations of our cherished actress.
 
-TODO: replace with the plots
 
+### What are the most recurrent words of the vocabulary of female?
+
+Tokens were analyzed to extract the most recurrent female-related words. 
+
+### How are women depicted in the plot summaries?
+
+Correferences, that is the words linked to female-related words in texts, depict how women are represented in the different cinematic industries. Through the analysis of those words, we can depict a portrait of how women are seen on the screen. 
+
+TODO: replace with the plots
 
 <html lang="en">
 <head>
@@ -46,45 +54,61 @@ TODO: replace with the plots
         .hidden {
             display: none;
         }
+
+        .caption {
+            margin-top: 10px;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
 
 <div id="imageContainer">
-    <label for="imageSelector">Area: </label>
+    <label for="imageSelector">Part of speech: </label>
     <select id="imageSelector" onchange="showSelectedImage()">
-        <option value="Asia">Asia</option>
-        <option value="Europe">Europe</option>
-        <option value="India">India</option>
-        <option value="NorthernAmerica">Northern America</option>
+        <option value="NOUN">Nouns</option>
+        <option value="ADJ">Adjectives</option>
+        <option value="VERB">Verbs</option>
+        <option value="PROPN">Proper nouns</option>
     </select>
 
-    <img id="Asia" src="images/flore.jpg" alt="Image 1">
-    <img id="Europe" src="images/flore.jpg" alt="Image 2" class="hidden">
-    <img id="India" src="images/flore.jpg" alt="Image 3" class="hidden">
-    <img id="NorthernAmerica" src="images/flore.jpg" alt="Image 4" class="hidden">
+    <img id="NOUN" src="images/flore.jpg" alt="Image 1">
+    <div id="NOUNCaption" class="caption">Caption for Nouns</div>
+
+    <img id="ADJ" src="images/flore.jpg" alt="Image 2" class="hidden">
+    <div id="ADJCaption" class="caption">Caption for Adjectives</div>
+
+    <img id="VERB" src="images/flore.jpg" alt="Image 3" class="hidden">
+    <div id="VERBCaption" class="caption">Caption for Verbs</div>
+
+    <img id="PROPN" src="images/flore.jpg" alt="Image 4" class="hidden">
+    <div id="PROPNCaption" class="caption">Caption for Proper Nouns</div>
 </div>
 
 <script>
     // Show the first image initially
-    document.getElementById('Asia').classList.remove('hidden');
+    document.getElementById('NOUN').classList.remove('hidden');
 
     function showSelectedImage() {
-        // Hide all images
-        var images = document.querySelectorAll('img');
-        images.forEach(function (image) {
-            image.classList.add('hidden');
+        // Hide all images and captions
+        var elements = document.querySelectorAll('img, .caption');
+        elements.forEach(function (element) {
+            element.classList.add('hidden');
         });
 
-        // Show the selected image
+        // Show the selected image and caption
         var selectedImageId = document.getElementById('imageSelector').value;
         var selectedImage = document.getElementById(selectedImageId);
-        if (selectedImage) {
+        var selectedCaption = document.getElementById(selectedImageId + 'Caption');
+        
+        if (selectedImage && selectedCaption) {
             selectedImage.classList.remove('hidden');
+            selectedCaption.classList.remove('hidden');
         }
     }
 </script>
 
 </body>
 </html>
+
 
