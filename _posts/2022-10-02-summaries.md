@@ -26,7 +26,7 @@ Joléa considers female representation a pivotal theme, and the portrayal of wom
 
 Tokens were analyzed to extract the most recurrent female-related words. 
 
-<img src="plots/tokens_wordcloud.png" alt="Tokens" style="width: 100%;">
+![tokens](plots/tokens_wordcloud.png)
 
 ## How are women depicted in the plot summaries?
 
@@ -118,8 +118,7 @@ TODO: replace with the plots
 
 Sentiment analysis of sentences containing female-related words show:
 
-<img src="plots/sentiment_scores.png" alt="Connections distribution" style="width: 100%;">
 
-
+![sentiment](plots/sentiment_scores.png)
 
 
