@@ -22,11 +22,13 @@ Various techniques, such as extracting words linked to a common theme, assessing
 Joléa considers female representation a pivotal theme, and the portrayal of women in text demands meticulous scrutiny. This careful examination aims to delineate the cinematic industry that aligns most seamlessly with the ideals and aspirations of our cherished actress.
 
 
-### What are the most recurrent words of the vocabulary of female?
+## What are the most recurrent words of the vocabulary of female?
 
 Tokens were analyzed to extract the most recurrent female-related words. 
 
-### How are women depicted in the plot summaries?
+<img src="plots/tokens_wordcloud.png" alt="Tokens" style="width: 100%;">
+
+## How are women depicted in the plot summaries?
 
 Correferences, that is the words linked to female-related words in texts, depict how women are represented in the different cinematic industries. Through the analysis of those words, we can depict a portrait of how women are seen on the screen. 
 
@@ -72,22 +74,23 @@ TODO: replace with the plots
         <option value="PROPN">Proper nouns</option>
     </select>
 
-    <img id="NOUN" src="images/flore.jpg" alt="Image 1">
+    <img id="NOUN" src="plots/NOUN_correferences_wordcloud.png" alt="Image 1">
     <div id="NOUNCaption" class="caption">Caption for Nouns</div>
 
-    <img id="ADJ" src="images/flore.jpg" alt="Image 2" class="hidden">
-    <div id="ADJCaption" class="caption">Caption for Adjectives</div>
+    <img id="ADJ" src="plots/ADJ_correferences_wordcloud.png" alt="Image 2" class="hidden">
+    <div id="ADJCaption" class="caption hidden">Caption for Adjectives</div>
 
-    <img id="VERB" src="images/flore.jpg" alt="Image 3" class="hidden">
-    <div id="VERBCaption" class="caption">Caption for Verbs</div>
+    <img id="VERB" src="plots/VERB_correferences_wordcloud.png" alt="Image 3" class="hidden">
+    <div id="VERBCaption" class="caption hidden">Caption for Verbs</div>
 
-    <img id="PROPN" src="images/flore.jpg" alt="Image 4" class="hidden">
-    <div id="PROPNCaption" class="caption">Caption for Proper Nouns</div>
+    <img id="PROPN" src="plots/PROPN_correferences_wordcloud.png" alt="Image 4" class="hidden">
+    <div id="PROPNCaption" class="caption hidden">Caption for Proper Nouns</div>
 </div>
 
 <script>
     // Show the first image initially
     document.getElementById('NOUN').classList.remove('hidden');
+    document.getElementById('NOUNCaption').classList.remove('hidden');
 
     function showSelectedImage() {
         // Hide all images and captions
@@ -110,5 +113,13 @@ TODO: replace with the plots
 
 </body>
 </html>
+
+## How sentences containing women-related words are perceived?
+
+Sentiment analysis of sentences containing female-related words show:
+
+<img src="plots/sentiment_scores.png" alt="Connections distribution" style="width: 100%;">
+
+
 
 
