@@ -55,7 +55,7 @@ However, these findings provide only a single point condensate of our data, that
 
 <div id="imageContainer2">
     <label for="imageSelector2">Region: </label>
-    <select id="imageSelector2" onchange="showSelectedImage()">
+    <select id="imageSelector2" onchange="showSelectedImage2()">
         <option value="1">Asia</option>
         <option value="2">Europe</option>
         <option value="3">India</option>
@@ -76,7 +76,7 @@ However, these findings provide only a single point condensate of our data, that
 </div>
 
 <script>
-    function showSelectedImage() {
+    function showSelectedImage2() {
         // Hide all images and captions
         var elements = document.querySelectorAll('.to-be-hidden2');
         elements.forEach(function (element) {
