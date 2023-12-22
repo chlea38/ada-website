@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction
+title:
 ---
 
 <div class="message">
