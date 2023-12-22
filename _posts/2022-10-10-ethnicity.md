@@ -8,7 +8,7 @@ Exploring ethnic representation in movies over the years in our selected regions
 ## Ethnicity melting pot
 
 The first step of our analysis is to examine our actor dataset globally, considering their ethnicities across various regions. This first observation is crucial to have a better understanding of what follows.
-This word cloud visually represents the ethnicities in each region, where the size of each ethnicity's name s proportional to its frequency of occurence in the data.
+This word cloud visually represents the ethnicities in each region, where the size of each ethnicity's names proportional to its frequency of occurence in the data.
 
 <img src="plots/wordcloud_ethnicities.png" alt="Connections distribution" style="width: 100%;">
 
@@ -23,7 +23,7 @@ Film industries in our four region of the world are large melting pot of actors 
 
 ## Ethnic diversity over years
 
-In order to go further in our exploration we are going to compare how this ethnicity diversity evolves across years in our four group when taking into account the amout of produced movies. The large proportion of missing values, which is unevenly distributed among the groups, makes these plots less reliable.
+In order to go further in our exploration we are going to compare how this ethnicity diversity evolves across years in our four groups when taking into account the amount of produced movies. The large proportion of missing values, which is unevenly distributed among groups, makes these plots less reliable.
 
 <iframe src="plots/ethny_diversity_percentage_2_2.html" style="width: 100%; height: 700px; border: none;"></iframe>
 
