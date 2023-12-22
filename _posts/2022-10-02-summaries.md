@@ -81,23 +81,31 @@ In the following images, you can dive into the most recurrent words linked to fe
 
     <img id="NOUN" class="to-be-hidden" src="plots/NOUN_correferences_wordcloud.png" alt="Image 1">
     <div id="NOUNCaption" class="caption to-be-hidden">
-    The striking information that can be extracted from these correferences plots is the extensivity of the "husband" word within the three first areas, as if women should be defined by their mariage. Another important word is "home", which is first in Asia and Europe. 
+        The striking information that can be extracted from these correferences plots is the extensivity of the "husband" word within the three first areas, as if women should be defined by their mariage. Another important word is "home", which is first in Asia and Europe, making women appearing as an entire part of the home. We even distinguish the word "kitchen" in Europe, favorising the most reccurent stereotype ever about womens. <br>
+        If we focus on Joléa's values, we can observe words like "leader" in Asia or "fighter" in India, which fits with the strong character of our actress.
     </div>
 
     <img id="ADJ" class="to-be-hidden hidden" src="plots/ADJ_correferences_wordcloud.png" alt="Image 2">
     <div id="ADJCaption" class="caption hidden to-be-hidden">
-    Within adjectives correferences, we can observe mainly age-related, class-related, and emotions-related adjectives to describe womens.
-    Specifically, young womens appears to be dominents in Asia and India, while for Europe and Northern America it's midde-adged women that dominates. 
+        Within adjectives correferences, we can observe mainly age-related, class-related, and emotions-related adjectives to describe womens.
+        Specifically, young womens appears to be dominents in Asia and India, while for Europe and Northern America it's midde-adged women that dominates. <br>
+        Women seems to be depicted as strong and independent in Asia, as expressed by the words "successful", "battlefield", "anti-communist", "criminal", which depicts a portrayal of women not only making dinner at home but fighting for their values. Joléa would love this appearant strenght. 
+        
+        On the opposite, Europe most recurrent adjectives relative to womens are "dead", "sick", "pet", "servitude" or event "suspicious". Same for Northern America with "dead", "unobserved", "fanatical", "pregnant" and "useless".
+        What kind of actress would like to represent a cinematic industries puting women on such degrading light? Certainly not Joléa.
     </div>
 
     <img id="VERB" class="to-be-hidden hidden" src="plots/VERB_correferences_wordcloud.png" alt="Image 3">
     <div id="VERBCaption" class="caption hidden to-be-hidden">
-    TODO
+        Once again, Asia seems to put women as an important values-fighting position, with some words like "participate", "escape", "happens", "want", "hide-and-seek", which depict women as master of their own destiny.
+
+        Here, India seems to portray women mainly as "housemaid" and "gouverness", which put women as a position which is not Joléa's interest. 
     </div>
 
     <img id="PROPN" class="to-be-hidden hidden" src="plots/PROPN_correferences_wordcloud.png" alt="Image 4">
     <div id="PROPNCaption" class="caption hidden to-be-hidden">
-    TODO
+        Analysing proper nouns related to females in summaries is interesting in the sense that we can compare if women are always related to male personnage. Indeed, in all regions, the main nouns are "father", "son", "ex-wife", "brother" or even "lover", all of them relating women to a man. 
+        
     </div>
 </div>
 
@@ -124,6 +132,10 @@ In the following images, you can dive into the most recurrent words linked to fe
 
 </body>
 </html>
+
+<br><br>
+In this end, TODO: conclusion
+
 
 #### How sentences containing female-related words are perceived?
 
