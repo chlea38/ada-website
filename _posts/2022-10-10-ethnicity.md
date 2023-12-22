@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Etnicity 
+title: Ethnicity 
 ---
 Exploring ethnic representation in movies over the years in our selected regions tells us a lot about how cinema reflects and changes with society. We gain insights into the complex interaction of culture, identity, and film in these regions. Our goal is to identify regions that present a richer variety of ethnicities on screen.
 
