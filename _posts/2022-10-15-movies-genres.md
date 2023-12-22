@@ -18,7 +18,7 @@ The genre diversity stands out, even post-genre clustering and condensing lesser
 
 Among these categories, genres like *comedy drama* emerge as particularly dominant. These genres could pave the way for Jolea's promising career path with more stable job opportunities. Let's thus shift our focus to the top five genres within each region: which are they, and what proportion of movies belong to those categories?
 
-![genres_top_5](plots/top_5_movies_genres)
+![genres_top_5](plots/top_5_movies_genres.png)
 Indeed, comedy drama consistently holds a spot in the top two across all regions! We will sometimes evoke this cluster as *drama* in the following steps, as it encompass both drama and related genres. Dominance of other genres varies across different regions. 
 However, these findings provide only a single point condensate of our data, that is spanning almost a century of movies. Yet, do the most prolific movie genres today mirror those from two decades ago? Did some of the top genres only emerged in recent years? Let's explore the data further to examine how the top movie genres have evolved over time. For this analysis, we'll exclude the 'Others' category, which doesn't provide significant insights into specific movie genres in this context.
 
@@ -39,6 +39,7 @@ Men occupy roughly 60% of roles in the drama cinematic industry, maintaining thi
 Our one-way ANOVA revealed a *p-value below  0.05*, indicating that the mean age of actresses is different in at least one area. Post-hoc multiple testing using Tukey HSD will allow us to determine which region exhibit statistically significant different mean actresses age.
 
 ![age_drama](plots/age_comparison_drama.png)
-It result that statistical significance exists in age differences across regions. However, looking at the boxplot the practical impact on career opportunities might not be as pronounced as initially inferred, as difference in 2-3 years are not that meaningfull in life...  On side note though, India might not offer the most favorable environment to conclude a career...
-
 The statistical analysis highlights significant mean age differences among every combination of regions. Yet, upon examining the box plots, the practical implications on career opportunities might not be as substantial as initially assumed. Indeed, differences of a few years might hold low significance in the grand scheme of life. One side note though, India might not offer the most favorable environment to conclude a career, exhibiting lower proportion of more mature actresses compare to other regions.
+
+### A word for Joléa’s carreer
+
