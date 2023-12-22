@@ -23,13 +23,13 @@ For this prediction task, we decided to implement a OneVsRestClassifier with a R
 
 The obtained AUC values equal to 1 suggest that our model perfectly predicts the appropriate regions for futur stars most suited for the Indian or Asian movie industries. For people well-suited for the European and North American film industries are generally accurately identified by the model with AUCs respectively equal to 0.92 and 0.96.
 
-<div style="display: flex;">
+<div style="display: flex; align-items: center;">
 
   <div style="flex: 2;">
-    <img src="plots/model_ROC_curves.png" alt="Connections distribution" style="width: 100%;">
+    <img src="plots/model_ROC_curves.png" style="width: 100%;">
   </div>
 
-  <div style="flex: 1;">
+  <div style="flex: 1; font-size: 10px;">
     <table>
       <thead>
         <tr>
@@ -46,7 +46,34 @@ The obtained AUC values equal to 1 suggest that our model perfectly predicts the
           <td>Indian person</td>
           <td>0.140</td>
         </tr>
-        <!-- Add more table rows as needed -->
+        <tr>
+          <td>Koreans</td>
+          <td>0.119</td>
+        </tr>
+        <tr>
+          <td>African Americans</td>
+          <td>0.070</td>
+        </tr>
+        <tr>
+          <td>English people</td>
+          <td>0.062</td>
+        </tr>
+        <tr>
+          <td>Japanese people</td>
+          <td>0.044</td>
+        </tr>
+        <tr>
+          <td>Honkongers</td>
+          <td>0.042</td>
+        </tr>
+        <tr>
+          <td>Jewish people</td>
+          <td>0.034</td>
+        </tr>
+        <tr>
+          <td>French</td>
+          <td>0.032</td>
+        </tr>
       </tbody>
     </table>
   </div>
@@ -54,6 +81,9 @@ The obtained AUC values equal to 1 suggest that our model perfectly predicts the
 </div>
 
 For a deeper understanding of how this model classifies our actors, we can examine the importance assigned to each feature, as indicated by the model itself (here are the first ten). The most influential feature is revenue. Indeed, there is a distinct variation in revenue distribution among different regions. Additionally, we observe that the other significant features align with the most prevalent ethnicities in our four distinct regions.
+
+<img src="plots/revenue_distribution_ttest.png" alt="Connections distribution" style="width: 100%;">
+
 
 This Random forest classifier is particularly performant due to the fact that, during the pre-processing, we selectively retain only the few most popular ethnicities of each region to train our model. The high specificity of certain regions' ethnicities facilitate the prediction task.
 
