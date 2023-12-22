@@ -6,7 +6,10 @@ title:
 <div class="message">
   <h2>Who am I?</h2>
 
-  <img src="images/actrice.gif" alt="actress" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 30%">
+  <div style="text-align: center; margin: 0 10px; flex: 1;">
+    <img src="images/actrice.gif" alt="actress" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 30%">
+    <p style="font-weight: bold; ; color: #a04144;">Joléa</p>
+  </div>  
   
   <br><br>
   Esteemed individuals, distinguished colleagues, and avid cinephiles,
