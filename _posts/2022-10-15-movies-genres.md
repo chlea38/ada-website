@@ -11,28 +11,34 @@ The dataset offered a rich array of movie genres, including highly specific and 
 Additionally, movies accounting for less than 2% of the total collection were consolidated under an *Others* category to simplify of representation of this huge variety of genres.
 Finally, it's important to note that a movie can fall into multiple genres, resulting in proportions that don't necessarily sum up to one.
 
-Let's thus have an comprehensive look at the variety of genres in our different geographical areas, as well as their prevalence.
+That said, let's delve into the diverse tapestry of genres across various regions. What better way to get an overview of their prevalence than using a word cloud?
 ![genres](plots/genres_wordcloud.png)
 
-The diversity in genres is remarkable! Now, let's center our attention on the top five genres within each region. These genres might offer Jolea a more promising career trajectory and stable job opportunities.
+The genre diversity stands out, even post-genre clustering and condensing lesser-represented genres into the 'Others' category. Interestingly, 'Others' remains notably substantial even after clustering, emphasizing numerous specific genre categories, albeit with fewer movies.
 
-<iframe src="plots/top_5_movie_genres.html" title="Top 5 movie genres" style="width: 100%; height: 750px; border: none;"></iframe>
+Among these categories, genres like *comedy drama* emerge as particularly dominant. These genres could pave the way for Jolea's promising career path with more stable job opportunities. Let's thus shift our focus to the top five genres within each region: which are they, and what proportion of movies belong to those categories?
 
-These findings provide only a condensate of our data, that is spanning almost a century of movies. Yet, do the most prolific movie genres today mirror those from two decades ago? Are there indications of emerging genres in recent years? Let's delve deeper into the data to scrutinize the evolution of the top movie genres over time. From now on, we will exclude the 'Others' category, as it doesn't contribute meaningful insights into specific movie genres within this context.
+![genres_top_5](plots/top_5_movies_genres)
+Indeed, comedy drama consistently holds a spot in the top two across all regions! We will sometimes evoke this cluster as *drama* in the following steps, as it encompass both drama and related genres. Dominance of other genres varies across different regions. 
+However, these findings provide only a single point condensate of our data, that is spanning almost a century of movies. Yet, do the most prolific movie genres today mirror those from two decades ago? Did some of the top genres only emerged in recent years? Let's explore the data further to examine how the top movie genres have evolved over time. For this analysis, we'll exclude the 'Others' category, which doesn't provide significant insights into specific movie genres in this context.
 
 ### Genre trends through the ages
 
 <iframe src="plots/movies_genres_over_years.html" title="Evolution of movie genres" style="width: 100%; height: 750px; border: none;"></iframe>
 
-In general, comedy-drama (or simply *drama*) remains steadfast as one of the top two movie genres. It appears to offer Jolea a stable career path teeming with opportunities. This holds true regardless of her chosen work location, leaving no doors closed to her.
-However, does she have ample space in this genre as a woman? Is there a particular region more inclined to embrace her?  Exploring gender representation within this specific movie genre across our four geographical regions will shed light on these crucial questions.
+In general, drama remains steadfast as one of the top movie genres over the years. It has shown resilience in remaining prolific across various periods, presenting Jolea with a reliable career path rich in opportunities without the risk of fading away. This holds true regardless of her chosen work location, leaving no doors closed to her.
+Nevertheless, one critical question arises: will she find ample space in this genre as a woman? Might a specific region be more receptive to her presence? Exploring gender representation within this specific movie category across our four geographical regions will help shed light on these crucial questions.
+
 
 ### Drama's gender portrait
-Men occupy roughly 60% of roles in the drama cinematic industry, maintaining this majority across all geographical areas. Additionally, actresses consistently tend to be younger than actors across all regions. Time is of the essence, Jolea—your career won't wait! Unless it can in some specific places?
-
+We can tackle this inquiry through two approaches: What is the proportion of actresses in the drama films? What age tend to have actors and actresses when they perform in such film? 
+Let's see how this looks in our different geographical areas !
 ![gender_drama](plots/gender_drama.png)
 
-Let's see if there is variation in age distribution across geographical regions for actresses.
+Men occupy roughly 60% of roles in the drama cinematic industry, maintaining this majority across all geographical areas. Additionally, actresses consistently tend to be younger than actors, regardless of the region. Time is of the essence, Jolea—your career won't wait! Unless it can in some specific regions ?
+Our one-way ANOVA revealed a *p-value below  0.05*, indicating that the mean age of actresses is different in at least one area. Post-hoc multiple testing using Tukey HSD will allow us to determine which region exhibit statistically significant different mean actresses age.
 
 ![age_drama](plots/age_comparison_drama.png)
-While statistical significance exists in age differences across regions, the practical impact on career opportunities might not be as pronounced as initially inferred...  On side note though, India might not offer the most favorable environment to conclude a career...
+It result that statistical significance exists in age differences across regions. However, looking at the boxplot the practical impact on career opportunities might not be as pronounced as initially inferred, as difference in 2-3 years are not that meaningfull in life...  On side note though, India might not offer the most favorable environment to conclude a career...
+
+The statistical analysis highlights significant mean age differences among every combination of regions. Yet, upon examining the box plots, the practical implications on career opportunities might not be as substantial as initially assumed. Indeed, differences of a few years might hold low significance in the grand scheme of life. One side note though, India might not offer the most favorable environment to conclude a career, exhibiting lower proportion of more mature actresses compare to other regions.
