@@ -31,11 +31,11 @@ However, these findings provide only a single point condensate of our data, that
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Image Selector</title>
     <style>
-        #imageContainer {
+        #imageContainer2 {
             text-align: center;
             margin-top: 20px;
         }
-        #imageSelector {
+        #imageSelector2 {
             border-radius: 8px;
             padding: 8px;
             border: 1px solid #ccc;
@@ -53,30 +53,29 @@ However, these findings provide only a single point condensate of our data, that
 </head>
 <body>
 
-<div id="imageContainer">
-    <label for="imageSelector">Region: </label>
-    <select id="imageSelector" onchange="showSelectedImage()">
+<div id="imageContainer2">
+    <label for="imageSelector2">Region: </label>
+    <select id="imageSelector2" onchange="showSelectedImage()">
         <option value="1">Asia</option>
         <option value="2">Europe</option>
         <option value="3">India</option>
         <option value="4">Northen America</option>
     </select>
-    <img id="1" class="to-be-hidden2" src="plots/genre_time_1.png" alt="Image 1">
-    <div id="Caption1" class="caption to-be-hidden2">
+    <img id="21" class="to-be-hidden2" src="plots/genre_time_1.png" alt="Image 1">
+    <div id="Caption21" class="caption to-be-hidden2">
     </div>
-    <img id="2" class="to-be-hidden2 hidden" src="plots/genre_time_2.png" alt="Image 2">
-    <div id="Caption2" class="caption hidden to-be-hidden2">
+    <img id="22" class="to-be-hidden2 hidden" src="plots/genre_time_2.png" alt="Image 2">
+    <div id="Caption22" class="caption hidden to-be-hidden2">
     </div>
-    <img id="3" class="to-be-hidden2 hidden" src="plots/genre_time_3.png" alt="Image 3">
-    <div id="Caption3" class="caption hidden to-be-hidden2">
+    <img id="23" class="to-be-hidden2 hidden" src="plots/genre_time_3.png" alt="Image 3">
+    <div id="Caption23" class="caption hidden to-be-hidden2">
     </div>
-    <img id="PROPN" class="to-be-hidden2 hidden" src="plots/genre_time_4.png" alt="Image 4">
-    <div id="Caption4" class="caption hidden to-be-hidden2">
+    <img id="24" class="to-be-hidden2 hidden" src="plots/genre_time_4.png" alt="Image 4">
+    <div id="Caption24" class="caption hidden to-be-hidden2">
     </div>
 </div>
 
 <script>
-
     function showSelectedImage() {
         // Hide all images and captions
         var elements = document.querySelectorAll('.to-be-hidden2');
@@ -85,9 +84,9 @@ However, these findings provide only a single point condensate of our data, that
         });
 
         // Show the selected image and caption
-        var selectedImageId = document.getElementById('imageSelector').value;
-        var selectedImage = document.getElementById(selectedImageId);
-        var selectedCaption = document.getElementById('Caption'+selectedImageId);
+        var selectedImageId = document.getElementById('imageSelector2').value;
+        var selectedImage = document.getElementById('2'+selectedImageId);
+        var selectedCaption = document.getElementById('Caption2'+selectedImageId);
         
         if (selectedImage && selectedCaption) {
             selectedImage.classList.remove('hidden');
