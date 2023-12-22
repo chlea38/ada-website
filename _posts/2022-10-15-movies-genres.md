@@ -6,7 +6,7 @@ title: Movies genre
 Joléa's background eccompass experience in multiple genres, displaying equal adeptness in portraying a tormented character in an art-house film as she does embodying the effervescent lead in a romantic comedy. However, she seeks clarity on where she's most likely to secure consistent roles and establish herself across various movies. Her aspiration is to specialize in a single genre, aiming to become one of its illustrious figure. How can she strategically pivot and sharpen her acting skills to achieve this goal?
 To answer this question, we aim to find the movie genres which are the most prominent accross the different geographical regions
 
-### Exploring cinematic diversity wolrdwide
+## Exploring cinematic diversity wolrdwide
 The dataset offered a rich array of movie genres, including highly specific and distinct ones. To enhance the analysis' meaning, the initial movie genres were grouped into broader categories, covering multiple *sub-genres*. This clustering process utilized pre-existing word embeddings and clustering techniques.
 Additionally, movies accounting for less than 2% of the total collection were consolidated under an *Others* category to simplify of representation of this huge variety of genres.
 Finally, it's important to note that a movie can fall into multiple genres, resulting in proportions that don't necessarily sum up to one.
@@ -22,15 +22,81 @@ Among these categories, genres like *comedy drama* emerge as particularly domina
 Indeed, comedy drama consistently holds a spot in the top two across all regions! We will sometimes evoke this cluster as *drama* in the following steps, as it encompass both drama and related genres. Dominance of other genres varies across different regions. 
 However, these findings provide only a single point condensate of our data, that is spanning almost a century of movies. Yet, do the most prolific movie genres today mirror those from two decades ago? Did some of the top genres only emerged in recent years? Let's explore the data further to examine how the top movie genres have evolved over time. For this analysis, we'll exclude the 'Others' category, which doesn't provide significant insights into specific movie genres in this context.
 
-### Genre trends through the ages
+## Genre trends through the ages
 
-<iframe src="plots/movies_genres_over_years.html" title="Evolution of movie genres" style="width: 100%; height: 750px; border: none;"></iframe>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Selector</title>
+    <style>
+        #imageContainer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #imageSelector {
+            border-radius: 8px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px; 
+            margin-bottom: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .caption {
+            margin-top: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<div id="imageContainer">
+    <label for="imageSelector">Part of speech: </label>
+    <select id="imageSelector" onchange="showSelectedImage()">
+        <option value="1">Asia</option>
+        <option value="2">Europe</option>
+        <option value="3">India</option>
+        <option value="4">Northen America</option>
+    </select>
+
+    <img id="1" class="to-be-hidden" src="plots/genre_time_1.png" alt="Image 1">
+    <img id="2" class="to-be-hidden hidden" src="plots/genre_time_2.png" alt="Image 2">
+    <img id="3" class="to-be-hidden hidden" src="plots/genre_time_3.png" alt="Image 3">
+    <img id="PROPN" class="to-be-hidden hidden" src="plots/genre_time_4.png" alt="Image 4">
+</div>
+
+<script>
+
+    function showSelectedImage() {
+        // Hide all images and captions
+        var elements = document.querySelectorAll('.to-be-hidden');
+        elements.forEach(function (element) {
+            element.classList.add('hidden');
+        });
+
+        // Show the selected image and caption
+        var selectedImageId = document.getElementById('imageSelector').value;
+        var selectedImage = document.getElementById(selectedImageId);
+        
+        if (selectedImage) {
+            selectedImage.classList.remove('hidden');
+        }
+    }
+</script>
+
+</body>
+</html>
 
 In general, drama remains steadfast as one of the top movie genres over the years. It has shown resilience in remaining prolific across various periods, presenting Jolea with a reliable career path rich in opportunities without the risk of fading away. This holds true regardless of her chosen work location, leaving no doors closed to her.
 Nevertheless, one critical question arises: will she find ample space in this genre as a woman? Might a specific region be more receptive to her presence? Exploring gender representation within this specific movie category across our four geographical regions will help shed light on these crucial questions.
 
 
-### Drama's gender portrait
+## Drama's gender portrait
 We can tackle this inquiry through two approaches: What is the proportion of actresses in the drama films? What age tend to have actors and actresses when they perform in such film? 
 Let's see how this looks in our different geographical areas !
 ![gender_drama](plots/gender_drama.png)
@@ -41,5 +107,15 @@ Our one-way ANOVA revealed a *p-value below  0.05*, indicating that the mean age
 ![age_drama](plots/age_comparison_drama.png)
 The statistical analysis highlights significant mean age differences among every combination of regions. Yet, upon examining the box plots, the practical implications on career opportunities might not be as substantial as initially assumed. Indeed, differences of a few years might hold low significance in the grand scheme of life. One side note though, India might not offer the most favorable environment to conclude a career, exhibiting lower proportion of more mature actresses compare to other regions.
 
-### A word for Joléa’s carreer
+
+<div class="message">
+  <h2>
+    Recommendations for Joléa’s Career
+  </h2>
+  <p>
+    CONTENT
+    <br><br>
+    CONTENT
+  </p>
+</div>
 
