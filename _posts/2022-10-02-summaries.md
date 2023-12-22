@@ -19,20 +19,25 @@ Various techniques, such as extracting words linked to a common theme, assessing
 
 ## Female representation in plot summaries
 
-Joléa considers female representation a pivotal theme, and the portrayal of women in text demands meticulous scrutiny. This careful examination aims to delineate the cinematic industry that aligns most seamlessly with the ideals and aspirations of our cherished actress.
+Joléa considers female representation a pivotal theme, and the portrayal of women in text demands meticulous scrutiny. This careful examination aims to delineate the cinematic industry that aligns most seamlessly with the ideals and aspirations of our cherished actress. To this aim, we built a vocabulary of female-related words and will go throught the different resuts.
 
 
-## What are the most recurrent words of the vocabulary of female?
+#### What are the most recurrent female-related words?
 
-Tokens were analyzed to extract the most recurrent female-related words. 
+Each words of each summaries were analyzed to extract the most recurrent female-related words. In the image below, you can observe the differences of appearance of each words according to the region.
 
 ![tokens](plots/tokens_wordcloud.png)
 
-## How are women depicted in the plot summaries?
+If the prounoun "she" appears first in each region, the other words differs a bit according to the cinematic industries. Specifically, in the vocabulary of northern america, women seems to be depicted as someone's relative more than in other countries: "sister", "wife", "mother" or "daughter" or even "girlfriend" are dominent words. 
 
-Correferences, that is the words linked to female-related words in texts, depict how women are represented in the different cinematic industries. Through the analysis of those words, we can depict a portrait of how women are seen on the screen. 
+TODO
 
-TODO: replace with the plots
+
+#### How are women depicted in the plot summaries?
+
+NLP analysis of plot summaries is able to extract correferences, that is the words linked to female-related words in the summaries. Analysis of those correferences can provide a lot of insight on how women are represented in the different cinematic industries. Through the analysis of women portrayal on the screen, we can choose the most adequate for our dear Joléa.
+
+In the following images, you can dive into the most recurrent words linked to females in the summaries. Correferences were separated into their part-of-speech (nouns, adjectives, verbs and proper nouns).
 
 <html lang="en">
 <head>
@@ -75,16 +80,25 @@ TODO: replace with the plots
     </select>
 
     <img id="NOUN" class="to-be-hidden" src="plots/NOUN_correferences_wordcloud.png" alt="Image 1">
-    <div id="NOUNCaption" class="caption to-be-hidden">Caption for Nouns</div>
+    <div id="NOUNCaption" class="caption to-be-hidden">
+    The striking information that can be extracted from these correferences plots is the extensivity of the "husband" word within the three first areas, as if women should be defined by their mariage. Another important word is "home", which is first in Asia and Europe. 
+    </div>
 
     <img id="ADJ" class="to-be-hidden hidden" src="plots/ADJ_correferences_wordcloud.png" alt="Image 2">
-    <div id="ADJCaption" class="caption hidden to-be-hidden">Caption for Adjectives</div>
+    <div id="ADJCaption" class="caption hidden to-be-hidden">
+    Within adjectives correferences, we can observe mainly age-related, class-related, and emotions-related adjectives to describe womens.
+    Specifically, young womens appears to be dominents in Asia and India, while for Europe and Northern America it's midde-adged women that dominates. 
+    </div>
 
-    <img id="VERB" class="to-be-hidden hidden" src="plots/VERB_correferences_wordcloud.png" alt="Image 3" >
-    <div id="VERBCaption" class="caption hidden to-be-hidden">Caption for Verbs</div>
+    <img id="VERB" class="to-be-hidden hidden" src="plots/VERB_correferences_wordcloud.png" alt="Image 3">
+    <div id="VERBCaption" class="caption hidden to-be-hidden">
+    TODO
+    </div>
 
     <img id="PROPN" class="to-be-hidden hidden" src="plots/PROPN_correferences_wordcloud.png" alt="Image 4">
-    <div id="PROPNCaption" class="caption hidden to-be-hidden">Caption for Proper Nouns</div>
+    <div id="PROPNCaption" class="caption hidden to-be-hidden">
+    TODO
+    </div>
 </div>
 
 <script>
@@ -111,11 +125,13 @@ TODO: replace with the plots
 </body>
 </html>
 
-## How sentences containing women-related words are perceived?
+#### How sentences containing female-related words are perceived?
 
-Sentiment analysis of sentences containing female-related words show:
+Sentiment analysis allows to get the general tone of sentences. We applied it on sentences containing words related to female.
 
 
 ![sentiment](plots/sentiment_scores.png)
+
+If the vast majority of sentences show a neutral sentiment towards female, the second category to dominates is the negative sentiment, as if women were depicted neutraly or negatively in majority. The regions showing the biggest proportion of positive sentiment is India, followed by Europe. 
 
 
