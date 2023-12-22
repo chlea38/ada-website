@@ -10,7 +10,7 @@ Joléa is among many "aspiring actors" wondering which is the most suitable regi
 - Gender
 
 ### Data pre-processing
-The data preprocessing was the major challenge to create this predictive model. The labeled dataset links individual actors with their corresponding features to the region in which they predominantly appeared in movies. The major point was to creat a balanced data frame: balanced between the different features between the training and the testing set of each region and also balanced between the four regions.
+The data preprocessing was the major challenge to create this predictive model. The labeled dataset links individual actors with their corresponding features to the region in which they predominantly appeared in movies. The major point was to create a balanced data frame: balanced between the different features between the training and the testing set of each region and also balanced between the four regions.
 
 In summary, here's what we did to achieve this:
 - To address the imbalance caused by highly sparse features (due to diverse and specific ethnicities and movie genres), we retained only the most prevalent ethnicities and movie genres for each region.
@@ -19,7 +19,7 @@ In summary, here's what we did to achieve this:
 And ... AbracADAbra! We now have a balanced dataset ready for model training.
 
 ### A performant model
-For this prediction task, we decided to implement a OneVsRestClassifier with a RandomForestClassifier as the underlying model.This option has proven to be quite effective in our predictions.
+For this prediction task, we decided to implement a OneVsRestClassifier with a RandomForestClassifier as the underlying model. This option has proven to be quite effective in our predictions.
 
 The obtained AUC values equal to 1 suggest that our model perfectly predicts the appropriate regions for futur stars most suited for the Indian or Asian movie industries. For people well-suited for the European and North American film industries are generally accurately identified by the model with AUCs respectively equal to 0.92 and 0.96.
 
@@ -77,12 +77,11 @@ The obtained AUC values equal to 1 suggest that our model perfectly predicts the
       </tbody>
     </table>
   </div>
-
 </div>
 
 For a deeper understanding of how this model classifies our actors, we can examine the importance assigned to each feature, as indicated by the model itself (here are the first ten). The most influential feature is revenue. Indeed, there is a distinct variation in revenue distribution among different regions. Additionally, we observe that the other significant features align with the most prevalent ethnicities in our four distinct regions.
 
-<img src="plots/revenue_distribution_ttest.png" alt="Connections distribution" style="width: 80%;">
+<img src="plots/revenue_distribution.png" alt="Connections distribution" style="width: 80%;">
 
 This Random forest classifier is particularly performant due to the fact that, during the pre-processing, we selectively retain only the few most popular ethnicities of each region to train our model. The high specificity of certain regions' ethnicities facilitate the prediction task.
 
