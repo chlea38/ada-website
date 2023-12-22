@@ -3,7 +3,7 @@ layout: post
 title: Report conclusion
 ---
 
-<div>
+<div class="message">
     <p>
     This project, blending data analytics, machine learning, and insights into the film industry, has provided essential guidance for an aspiring actress like Joléa. It highlights the critical role of networking in the film industry, showing how connections with influential figures, or 'big whales', can significantly impact an actor's career.
     <br><br>
