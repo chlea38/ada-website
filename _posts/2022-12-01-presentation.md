@@ -7,8 +7,10 @@ title: Introduction
   <h2>Who am I?</h2>
 
   <div style="text-align: center; margin: 0 10px; flex: 1;">
-    <img src="images/actrice.gif" alt="actress" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 30%">
+    <img src="images/actrice.gif" alt="actress" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 40%">
     <p style="font-weight: bold; ; color: #a04144;">Joléa</p>
+    <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Star in the making</p>
+      <p style="font-style: italic; color: #c68d8e;font-size: 14px;"> “Becoming a star is my daily hustle; watch me shine brighter than the spotlight!” </p>
   </div>  
   
   <br><br>
