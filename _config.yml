@@ -6,8 +6,8 @@ highlighter: rouge
 permalink: pretty
 
 # Setup
-title: 'Charting path to cinematic success'
-tagline: 'Charting path to cinematic success' # For the tab title
+title: 'Charting a path to cinematic success'
+tagline: 'Charting a path to cinematic success' # For the tab title
 description: 'Applied Data Analysis Project - EPFL '
 url: http://hyde.getpoole.com # FIXME - Change this, but what does it do ?
 baseurl: /

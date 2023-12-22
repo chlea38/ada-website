@@ -7,8 +7,10 @@ title: Introduction
   <h2>Who am I?</h2>
 
   <div style="text-align: center; margin: 0 10px; flex: 1;">
-    <img src="images/actrice.gif" alt="actress" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 30%">
+    <img src="images/actrice.gif" alt="actress" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 40%">
     <p style="font-weight: bold; ; color: #a04144;">Joléa</p>
+    <p style="font-weight: bold; color: #c68d8e;font-size: 20px;">Star in the making</p>
+      <p style="font-style: italic; color: #c68d8e;font-size: 20px;"> “Becoming a star is my daily hustle; <br> watch me shine brighter than the spotlight!” </p>
   </div>  
   
   <br><br>
@@ -23,31 +25,31 @@ title: Introduction
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/leon.gif" alt="Image 1" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 100%;">
       <p style="font-weight: bold; ; color: #a04144;">Léon</p>
-      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Data cleaning connoisseur</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Data cleaning <br> connoisseur</p>
       <p style="font-style: italic; color: #c68d8e;font-size: 14px;"> “Cleaning data is my cardio; watch me sweat those missing values away!” </p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/justine.gif" alt="Image 3" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Justine</p>
-      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Visualization Virtuoso</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Visualization <br> Virtuoso</p>
       <p style="font-style: italic;color: #c68d8e;font-size: 14px;">“I turn data into art; Picasso would've been jealous of my pie charts!”</p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/chlea.gif" alt="Image 5" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Chléa</p>
-      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Litterature genius</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Litterature <br> genius</p>
       <p style="font-style: italic;color: #c68d8e;font-size: 14px;">“Analyzing text data is like being a literary detective, where every word is a clue, and each sentence unfolds a story”</p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/lola.gif" alt="Image 2" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Lola</p>
-      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Social expert</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Social <br> expert</p>
       <p style="font-style: italic; color: #c68d8e;font-size: 14px;">“I'm the data wizard who sees more than 0s and 1s—I'm a numbers whisperer decoding societal secrets”</p>
     </div>
     <div style="text-align: center; margin: 0 10px; flex: 1;">
       <img src="images/flore.gif" alt="Image 4" style="display: block; margin: 0 auto; border: 4px solid #a04144; border-radius: 8px; width: 100%;">
       <p style="font-weight: bold;; color: #a04144;">Flore</p>
-      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Predictive Modeling Prodigy</p>
+      <p style="font-weight: bold; color: #c68d8e;font-size: 14px;">Predictive Modeling <br> Prodigy</p>
       <p style="font-style: italic;color: #c68d8e;font-size: 14px;">“I'm not psychic, but my models are; they can predict your future better than a fortune cookie!”</p>
     </div>
   </div>

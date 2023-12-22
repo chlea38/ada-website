@@ -24,20 +24,25 @@ Joléa considers female representation a pivotal theme, and the portrayal of wom
 
 #### What are the most recurrent female-related words?
 
-Each words of each summaries were analyzed to extract the most recurrent female-related words. In the image below, you can observe the differences of appearance of each words according to the region.
+A comprehensive analysis of the vocabulary used in each summary was conducted to identify the most recurrent words related to females. The visual representation highlights variations in the frequency of appearance across regions. 
 
 ![tokens](plots/tokens_wordcloud.png)
 
-If the prounoun "she" appears first in each region, the other words differs a bit according to the cinematic industries. Specifically, in the vocabulary of northern america, women seems to be depicted as someone's relative more than in other countries: "sister", "wife", "mother" or "daughter" or even "girlfriend" are dominent words. 
+While the pronoun "she" consistently appears first in each region, other words differ slightly based on cinematic industries. Notably, in the Northern American vocabulary, women are often depicted in relational roles, with dominant words such as "sister," "wife," "mother," "daughter," and even "girlfriend."
 
-TODO
+#### How sentences containing female-related words are perceived?
 
+To gauge the overall tone of sentences, sentiment analysis was applied to those containing words related to females. 
+
+![sentiment](plots/sentiment_scores.png)
+
+The results reveal that the majority of sentences exhibit a neutral sentiment towards females. Interestingly, the second most prevalent sentiment is negative, suggesting that women are predominantly portrayed neutrally or negatively. Notably, India stands out with the highest proportion of positive sentiment, followed by Europe.
 
 #### How are women depicted in the plot summaries?
 
-NLP analysis of plot summaries is able to extract correferences, that is the words linked to female-related words in the summaries. Analysis of those correferences can provide a lot of insight on how women are represented in the different cinematic industries. Through the analysis of women portrayal on the screen, we can choose the most adequate for our dear Joléa.
+NLP analysis of plot summaries enables the extraction of correferences, referring to words associated with female-related terms within the summaries. Examining these correferences provides valuable insights into how women are portrayed across diverse cinematic industries. By scrutinizing the representation of women on screen, we can discern the most fitting roles for our esteemed actress, Joléa.
 
-In the following images, you can dive into the most recurrent words linked to females in the summaries. Correferences were separated into their part-of-speech (nouns, adjectives, verbs and proper nouns).
+The accompanying images offer a detailed exploration of the most frequently occurring words linked to females in the summaries. Correferences have been categorized based on their part of speech, including nouns, adjectives, verbs, and proper nouns. This categorization allows for a more granular understanding of the linguistic elements shaping the portrayal of women in cinematic narratives.
 
 <html lang="en">
 <head>
@@ -131,21 +136,12 @@ In the following images, you can dive into the most recurrent words linked to fe
 </body>
 </html>
 
-<br><br>
-In conclusion, the analysis of various linguistic elements across different regions reveals distinct patterns in the portrayal of women. In terms of nouns, the prevalence of terms like "husband" and "home" in Asia and Europe suggests a perception of women tethered to traditional domestic roles. Adjectives further accentuate regional differences, with Asia portraying women as strong and independent, while Europe and Northern America tend to use more negative descriptors. The verbs employed in the narratives reinforce these distinctions, with Asia emphasizing women's agency and control over their destinies, while India associates them with more traditional roles.
+## A word for Joléa's carreer
 
-Joléa's values, as reflected in the adjectives and verbs associated with her, align with the portrayal of strong, independent women, particularly in the Asian context. The discrepancies in proper nouns across regions, consistently linking women to male figures, highlight a pervasive theme of women being defined in relation to men.
+In summarizing the comprehensive analyses conducted across linguistic elements, distinct patterns emerge in the portrayal of women across diverse regions. Nouns, such as "husband" and "home," underscore a perception of women tied to traditional domestic roles in Asia and Europe. Adjectives further illuminate regional distinctions, portraying Asian women as strong and independent, while Europe and Northern America lean towards more negative descriptors. Verbs reinforce these differences, emphasizing women's agency in Asia and traditional roles in India.
 
-In essence, the linguistic analysis underscores a nuanced and varied representation of women across different cultural contexts, shedding light on prevailing stereotypes, societal expectations, and the evolving roles of women in these regions. The distinct linguistic nuances also prompt reflection on the potential impact of these portrayals on societal perceptions and, in turn, influence on cinematic and cultural narratives.
+Joléa's values, evident in associated adjectives and verbs, align with the depiction of strong, independent women, especially in the Asian context. The consistent linkage of women to male figures in proper nouns underscores a prevailing theme of defining women in relation to men.
 
+Expanding the analysis to include recurrent vocabulary and sentiment, the Northern American vocabulary emphasizes relational aspects of women's identities, with words like "sister" and "wife" prevailing. Sentiment analysis reveals a predominant neutral tone, with India and Europe standing out as exceptions with more positive portrayals.
 
-#### How sentences containing female-related words are perceived?
-
-Sentiment analysis allows to get the general tone of sentences. We applied it on sentences containing words related to female.
-
-
-![sentiment](plots/sentiment_scores.png)
-
-If the vast majority of sentences show a neutral sentiment towards female, the second category to dominates is the negative sentiment, as if women were depicted neutraly or negatively in majority. The regions showing the biggest proportion of positive sentiment is India, followed by Europe. 
-
-
+Taken together, these insights underscore the nuanced and varied representation of women across different cultural contexts. The linguistic nuances and sentiment trends contribute to a deeper understanding of how cinematic industries shape societal perceptions of women. The findings prompt critical reflections on the potential societal impact of these portrayals and advocate for a more inclusive and empowering representation of women in media. Additionally, the ability to ADApt to evolving cultural narratives is crucial for fostering positive and diverse portrayals of women in the ever-changing landscape of media.
