@@ -1,12 +1,10 @@
 ---
 layout: post
-title: The story behind plot summaries
 ---
 
-Movie summaries contain a lot of hidden information about the film industry and should be examined with the same passion and attention as a Shakespeare manuscript. 
-In this part, we will study and compare the hidden story behind the summaries of each of the 4 regions, across different topics.
+## Reading between the lines of plot summaries
 
-## Reading between the lines
+Movie summaries contain a lot of hidden information about female representation of the film industries and should be examined with the same passion and attention as a Shakespeare manuscript. 
 
 The textual data primarily encodes insights into how personna and common themes are portrayed across various movies. Uncovering such details from raw texts involves a nuanced approach, requiring a careful examination between the lines, coupled with the application of machine learning techniques. All plot summaries have undergone meticulous processing using the [Stanford Core NLP pipeline](https://stanfordnlp.github.io/CoreNLP/pipeline.html), and the outcomes of this processing are neatly presented in the accompanying dataset. Our current objective is to delve into this dataset to unearth the inherent narratives within each plot summary.
 
@@ -16,10 +14,6 @@ This supplementary dataset encompasses a wealth of features related to the text,
 - Recognition of co-references related to the same entity throughout the text.
 
 Various techniques, such as extracting words linked to a common theme, assessing the sentiment embedded in sentences containing those words, and scrutinizing words frequently associated with theme-related terms, serve as diverse approaches to deciphering the subtleties within these movie plot summaries. Let's delve into what these features unveil about the movies.
-
-## Female representation in plot summaries
-
-Joléa considers female representation a pivotal theme, and the portrayal of women in text demands meticulous scrutiny. This careful examination aims to delineate the cinematic industry that aligns most seamlessly with the ideals and aspirations of our cherished actress. To this aim, we built a vocabulary of female-related words and will go throught the different resuts.
 
 
 #### What are the most recurrent female-related words?
@@ -136,12 +130,10 @@ The accompanying images offer a detailed exploration of the most frequently occu
 </body>
 </html>
 
-## A word for Joléa's carreer
 
-In summarizing the comprehensive analyses conducted across linguistic elements, distinct patterns emerge in the portrayal of women across diverse regions. Nouns, such as "husband" and "home," underscore a perception of women tied to traditional domestic roles in Asia and Europe. Adjectives further illuminate regional distinctions, portraying Asian women as strong and independent, while Europe and Northern America lean towards more negative descriptors. Verbs reinforce these differences, emphasizing women's agency in Asia and traditional roles in India.
-
-Joléa's values, evident in associated adjectives and verbs, align with the depiction of strong, independent women, especially in the Asian context. The consistent linkage of women to male figures in proper nouns underscores a prevailing theme of defining women in relation to men.
-
-Expanding the analysis to include recurrent vocabulary and sentiment, the Northern American vocabulary emphasizes relational aspects of women's identities, with words like "sister" and "wife" prevailing. Sentiment analysis reveals a predominant neutral tone, with India and Europe standing out as exceptions with more positive portrayals.
-
-Taken together, these insights underscore the nuanced and varied representation of women across different cultural contexts. The linguistic nuances and sentiment trends contribute to a deeper understanding of how cinematic industries shape societal perceptions of women. The findings prompt critical reflections on the potential societal impact of these portrayals and advocate for a more inclusive and empowering representation of women in media. Additionally, the ability to ADApt to evolving cultural narratives is crucial for fostering positive and diverse portrayals of women in the ever-changing landscape of media.
+<div class="message">
+    <h2> A word for Joléa's career </h2>
+    <p>
+        In essence, the analysis reveals nuanced portrayals of women across regions. While Asia presents strong, independent figures aligning with Joléa's values, Europe and Northern America tend to lean towards more stereotypical and negative depictions. The consistent link of women to male figures underscores a pervasive theme. We would thus recommend Joléa to go for Asia industry to have the best female representation.
+    </p>
+</div>
