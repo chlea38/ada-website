@@ -81,30 +81,28 @@ In the following images, you can dive into the most recurrent words linked to fe
 
     <img id="NOUN" class="to-be-hidden" src="plots/NOUN_correferences_wordcloud.png" alt="Image 1">
     <div id="NOUNCaption" class="caption to-be-hidden">
-        The striking information that can be extracted from these correferences plots is the extensivity of the "husband" word within the three first areas, as if women should be defined by their mariage. Another important word is "home", which is first in Asia and Europe, making women appearing as an entire part of the home. We even distinguish the word "kitchen" in Europe, favorising the most reccurent stereotype ever about womens. <br>
-        If we focus on Joléa's values, we can observe words like "leader" in Asia or "fighter" in India, which fits with the strong character of our actress.
+        The noteworthy observation drawn from these reference plots is the prevalence of the term "husband" in the initial three regions, seemingly implying that women should be defined by their marital status. Another significant term is "home," ranking first in Asia and Europe, suggesting the perception of women as an integral part of domestic life. Notably, the term "kitchen" is discernible in Europe, reinforcing the persistent stereotype about women. <br>
+        Delving into Joléa's values, we discern words like "leader" in Asia or "fighter" in India, aligning with the strong character of our actress.
     </div>
 
     <img id="ADJ" class="to-be-hidden hidden" src="plots/ADJ_correferences_wordcloud.png" alt="Image 2">
     <div id="ADJCaption" class="caption hidden to-be-hidden">
-        Within adjectives correferences, we can observe mainly age-related, class-related, and emotions-related adjectives to describe womens.
-        Specifically, young womens appears to be dominents in Asia and India, while for Europe and Northern America it's midde-adged women that dominates. <br>
-        Women seems to be depicted as strong and independent in Asia, as expressed by the words "successful", "battlefield", "anti-communist", "criminal", which depicts a portrayal of women not only making dinner at home but fighting for their values. Joléa would love this appearant strenght. 
-        
-        On the opposite, Europe most recurrent adjectives relative to womens are "dead", "sick", "pet", "servitude" or event "suspicious". Same for Northern America with "dead", "unobserved", "fanatical", "pregnant" and "useless".
-        What kind of actress would like to represent a cinematic industries puting women on such degrading light? Certainly not Joléa.
+        Examining adjectival references reveals predominantly age-related, class-related, and emotion-related descriptors used to characterize women.
+        Particularly, young women appear dominant in Asia and India, whereas middle-aged women take precedence in Europe and Northern America. <br>
+        Women seem to be portrayed as strong and independent in Asia, as indicated by terms such as "successful," "battlefield," "anti-communist," and "criminal," portraying them not just as homemakers but as individuals fighting for their values. Joléa would appreciate this apparent strength. <br>
+        Conversely, prevalent adjectives in Europe concerning women include "dead," "sick," "pet," "servitude," and even "suspicious." The same holds for Northern America with terms like "dead," "unobserved," "fanatical," "pregnant," and "useless."
+        What actress would want to represent an industry casting women in such a degrading light? Certainly not Joléa.
     </div>
 
     <img id="VERB" class="to-be-hidden hidden" src="plots/VERB_correferences_wordcloud.png" alt="Image 3">
     <div id="VERBCaption" class="caption hidden to-be-hidden">
-        Once again, Asia seems to put women as an important values-fighting position, with some words like "participate", "escape", "happens", "want", "hide-and-seek", which depict women as master of their own destiny.
-
-        Here, India seems to portray women mainly as "housemaid" and "gouverness", which put women as a position which is not Joléa's interest. 
+        Once again, Asia positions women in significant values-driven roles, with words like "participate," "escape," "happens," "want," and "hide-and-seek," portraying women as masters of their own destiny. <br>
+        In contrast, India seems to depict women primarily as "housemaids" and "governesses," roles that do not align with Joléa's interests.
     </div>
 
     <img id="PROPN" class="to-be-hidden hidden" src="plots/PROPN_correferences_wordcloud.png" alt="Image 4">
     <div id="PROPNCaption" class="caption hidden to-be-hidden">
-        Analysing proper nouns related to females in summaries is interesting in the sense that we can compare if women are always related to male personnage. Indeed, in all regions, the main nouns are "father", "son", "ex-wife", "brother" or even "lover", all of them relating women to a man. 
+        Analyzing proper nouns related to females in summaries is intriguing as it allows us to determine if women are consistently linked to male characters. Across all regions, the prominent nouns include "father," "son," "ex-wife," "brother," and even "lover," all of which establish connections between women and men.
         
     </div>
 </div>
@@ -134,7 +132,11 @@ In the following images, you can dive into the most recurrent words linked to fe
 </html>
 
 <br><br>
-In this end, TODO: conclusion
+In conclusion, the analysis of various linguistic elements across different regions reveals distinct patterns in the portrayal of women. In terms of nouns, the prevalence of terms like "husband" and "home" in Asia and Europe suggests a perception of women tethered to traditional domestic roles. Adjectives further accentuate regional differences, with Asia portraying women as strong and independent, while Europe and Northern America tend to use more negative descriptors. The verbs employed in the narratives reinforce these distinctions, with Asia emphasizing women's agency and control over their destinies, while India associates them with more traditional roles.
+
+Joléa's values, as reflected in the adjectives and verbs associated with her, align with the portrayal of strong, independent women, particularly in the Asian context. The discrepancies in proper nouns across regions, consistently linking women to male figures, highlight a pervasive theme of women being defined in relation to men.
+
+In essence, the linguistic analysis underscores a nuanced and varied representation of women across different cultural contexts, shedding light on prevailing stereotypes, societal expectations, and the evolving roles of women in these regions. The distinct linguistic nuances also prompt reflection on the potential impact of these portrayals on societal perceptions and, in turn, influence on cinematic and cultural narratives.
 
 
 #### How sentences containing female-related words are perceived?
