@@ -89,7 +89,8 @@ To gain deeper insights into the revenue distribution across various regions and
 
 <img src="plots/revenue_distribution.png" alt="Connections distribution" style="width: 80%;">
 
-Additionally, we observe that the other significant features align with the most prevalent ethnicities in our four distinct regions.
+Additionally, we observe that the other significant features align with the most prevalent ethnicities in our four distinct regions. 
+The significant ethnic diversity within the four regions may contribute substantially to the high accuracy achieved by our model. In the Indian film industry, the representation is limited to only three ethnicities, with two being exclusively associated with Indian movies. This creates a highly influential feature for the model. Conversely, the European and North American film industries exhibit greater ethnic diversity. This diversity, while enriching, may pose challenges for the model in making as precise predictions as for regions with less ethnic diversity.
 
 <div class="message">
 	<h2>
