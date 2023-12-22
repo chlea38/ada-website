@@ -1,6 +1,5 @@
 ---
 layout: post
-title:
 ---
 
 <div class="message">
