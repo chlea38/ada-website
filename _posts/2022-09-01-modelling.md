@@ -29,7 +29,7 @@ The obtained AUC values equal to 1 suggest that our model perfectly predicts the
     <img src="plots/model_ROC_curves.png" style="width: 100%;">
   </div>
 
-  <div style="flex: 1; font-size: 10px;">
+  <div style="flex: 1; font-size: 11px;">
     <table>
       <thead>
         <tr>
@@ -82,8 +82,7 @@ The obtained AUC values equal to 1 suggest that our model perfectly predicts the
 
 For a deeper understanding of how this model classifies our actors, we can examine the importance assigned to each feature, as indicated by the model itself (here are the first ten). The most influential feature is revenue. Indeed, there is a distinct variation in revenue distribution among different regions. Additionally, we observe that the other significant features align with the most prevalent ethnicities in our four distinct regions.
 
-<img src="plots/revenue_distribution_ttest.png" alt="Connections distribution" style="width: 100%;">
-
+<img src="plots/revenue_distribution_ttest.png" alt="Connections distribution" style="width: 80%;">
 
 This Random forest classifier is particularly performant due to the fact that, during the pre-processing, we selectively retain only the few most popular ethnicities of each region to train our model. The high specificity of certain regions' ethnicities facilitate the prediction task.
 
