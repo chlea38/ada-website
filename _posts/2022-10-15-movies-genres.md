@@ -56,7 +56,7 @@ However, these findings provide only a single point condensate of our data, that
 <body>
 
 <div id="imageContainer">
-    <label for="imageSelector">Part of speech: </label>
+    <label for="imageSelector">Region: </label>
     <select id="imageSelector" onchange="showSelectedImage()">
         <option value="1">Asia</option>
         <option value="2">Europe</option>
@@ -65,9 +65,17 @@ However, these findings provide only a single point condensate of our data, that
     </select>
 
     <img id="1" class="to-be-hidden" src="plots/genre_time_1.png" alt="Image 1">
+    <div id="Caption1" class="caption to-be-hidden">
+    </div>
     <img id="2" class="to-be-hidden hidden" src="plots/genre_time_2.png" alt="Image 2">
+    <div id="Caption2" class="caption hidden to-be-hidden">
+    </div>
     <img id="3" class="to-be-hidden hidden" src="plots/genre_time_3.png" alt="Image 3">
+    <div id="Caption3" class="caption hidden to-be-hidden">
+    </div>
     <img id="PROPN" class="to-be-hidden hidden" src="plots/genre_time_4.png" alt="Image 4">
+    <div id="Caption4" class="caption hidden to-be-hidden">
+    </div>
 </div>
 
 <script>
@@ -82,8 +90,9 @@ However, these findings provide only a single point condensate of our data, that
         // Show the selected image and caption
         var selectedImageId = document.getElementById('imageSelector').value;
         var selectedImage = document.getElementById(selectedImageId);
+        var selectedCaption = document.getElementById('Caption'+selectedImageId);
         
-        if (selectedImage) {
+        if (selectedImage && selectedCaption) {
             selectedImage.classList.remove('hidden');
         }
     }
