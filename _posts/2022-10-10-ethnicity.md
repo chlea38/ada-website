@@ -32,5 +32,11 @@ We observe that there are more Indian movies than European ones over the years. 
 
 Finally we can look at the percentage of different ethnicities represented in each region for different years to try to make a conclusion to our analysis. Values for Eastern Asian unique ethnicities percentage are really non readable and comparable as we have a very few movies available. We observe a high variability of our curve over years. Globaly the other three curves show a slight decreasing pattern. This suggests that, despite an increase in the number of films produced, ethnic diversity representation did not rise sufficiently to maintain a constant percentage or show an increase. This implies that the number of movies produced increased more rapidly than the diversification of ethnicities represented on screen.  
 
-### Recommendations for Joléa's Career
-Joléa believes that a mix of cultures and ethnicities is crucial. She prefers a career in a region with a rich on-screen ethnic diversity. We don't consider Asia in this analysis due to data limitations. The analysis suggests that for the highest ethnic diversity percentage in film, Europe is the best choice. Although Northern America has more ethnicities, its overall diversity proportion in films is smaller.
+<div class="message">
+	<h2>
+		Recommendations for Joléa’s Career
+	</h2>
+	<p>
+		Joléa believes that a mix of cultures and ethnicities is crucial. She prefers a career in a region with a rich on-screen ethnic diversity. We don't consider Asia in this analysis due to data limitations. The analysis suggests that for the highest ethnic diversity percentage in film, Europe is the best choice. Although Northern America has more ethnicities, its overall diversity proportion in films is smaller.
+	</p>
+</div>
